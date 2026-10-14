@@ -2,25 +2,36 @@
 
 Data supporting **Characterizing the Hydrophobic Contribution to Adsorption on Ligand-functionalized Surfaces**.
 
-This repository contains the numerical data for Figures 3–13 and Figures S2, S4–S9, and S11–S13. The collection includes water occupancy and cavity-formation free energies, surface properties, hydration, protein adsorption, and protein elution data.
+This repository contains simulation and experimental data on the hydrophobic contribution to protein adsorption on ligand-functionalized surfaces. The data include water occupancy, free energy of cavity formation, solvent-accessible surface area (SASA), chemical-group hydration, probe volume geometry, protein adsorption, and protein elution salt concentrations.
 
-## Finding the data
+## Repository contents
 
-The [Data folder](Data/) is organized by figure number and subject. Start with the [data guide](Data/README.txt) or the [file index](Data/file_index.csv). Each figure folder includes a short README and column definitions in `metadata.json`.
+- [Data/](Data/) contains the numerical data, organized by subject. Each dataset has a short README and column definitions in `metadata.json`.
+- [Data/file_index.csv](Data/file_index.csv) maps each data file to its manuscript or Supplementary Information figure.
+- [scripts/](scripts/) contains a plotting script for every numerical dataset. The [script guide](scripts/README.md) lists the matching datasets and figures.
+- [plot_all.py](plot_all.py) runs all plotting scripts. Generated files are saved in `plots/`, organized by dataset.
 
-CSV files can be opened in a spreadsheet or read with an analysis program. Individual replicate results and plotted summaries are supplied where available. The figure documentation explains units, uncertainty, and any normalization or smoothing. Selected coordinate and probe-definition files are included; full simulation trajectories are not.
+CSV files can be opened in a spreadsheet or read with an analysis program. Individual replicate results and plotted summaries are supplied where available. The [data guide](Data/README.txt) explains file conventions; each dataset's documentation gives units, uncertainty, and any normalization or smoothing. Selected coordinate and probe-definition files are included; full simulation trajectories are not.
 
-## Plotting scripts
+## Generating the plots
 
-Scripts are provided for the numerical panels of Figure 7 and for Figure S9. From the repository root, install the optional plotting dependencies and run:
+Use Python 3.10–3.12, with Arial and Aptos available for the panels that use those fonts. From the repository root, install the plotting dependencies and generate all numerical plots:
 
 ```bash
 python -m pip install -r requirements.txt
-python Data/Figure_07_inner_outer_water_occupancy/plot_figure7.py
-python Data/Figure_S09_additional_probe_locations/plot_figure_s9.py
+python plot_all.py
 ```
 
-Each script saves PDF, SVG, and PNG files in a `plots` subfolder. The Figure 7 script checks the saved summaries against all three replicas before plotting; molecular illustrations and chemical structures are not redrawn.
+Every dataset is exported as PDF, SVG, and PNG. The scripts reproduce the numerical panels using the deposited plot values and documented calculations. Molecular illustrations, chemical structures, and final composite layouts are assembled separately.
+
+To list the datasets or plot a selected dataset:
+
+```bash
+python plot_all.py --list
+python plot_all.py --dataset protein_adsorption_pmf
+```
+
+Individual scripts can also be run directly. Use `--output-dir` to choose where the generated plots are saved. Reading the CSV files does not require these plotting dependencies.
 
 ## Contact
 

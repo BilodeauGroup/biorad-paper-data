@@ -1,4 +1,4 @@
-# Optional dependencies for the Figure 7 and Figure S9 plotting scripts
-numpy
-scipy
-matplotlib
+# Tested plotting environment; use Python 3.10–3.12.
+numpy==1.26.4
+scipy==1.12.0
+matplotlib==3.8.3
