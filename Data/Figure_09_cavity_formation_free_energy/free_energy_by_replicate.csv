@@ -1,0 +1,37 @@
+ligand,probe_geometry,replicate,beta_phi,normalized_beta_free_energy
+CB431,cylindrical,1,11,3.92288787
+CB431,cylindrical,2,11,3.82699900
+CB431,cylindrical,3,11,3.90179038
+Nuvia cPrime,cylindrical,1,11,3.76659026
+Nuvia cPrime,cylindrical,2,11,3.74583479
+Nuvia cPrime,cylindrical,3,11,3.68133618
+CB433,cylindrical,1,11,3.48796717
+CB433,cylindrical,2,11,3.48771367
+CB433,cylindrical,3,11,3.51634392
+CB441,cylindrical,1,11,3.24704035
+CB441,cylindrical,2,11,3.39754602
+CB441,cylindrical,3,11,3.37178111
+CB434,cylindrical,1,11,3.51832416
+CB434,cylindrical,2,11,3.78703573
+CB434,cylindrical,3,11,3.34888011
+CB442,cylindrical,1,11,2.87118855
+CB442,cylindrical,2,11,2.89164765
+CB442,cylindrical,3,11,2.83808172
+CB431,cylindrical_union_of_spheres,1,11,3.90767108
+CB431,cylindrical_union_of_spheres,2,11,3.91064021
+CB431,cylindrical_union_of_spheres,3,11,3.85169794
+Nuvia cPrime,cylindrical_union_of_spheres,1,11,3.66949097
+Nuvia cPrime,cylindrical_union_of_spheres,2,11,3.67593115
+Nuvia cPrime,cylindrical_union_of_spheres,3,11,3.69650697
+CB433,cylindrical_union_of_spheres,1,11,4.04196162
+CB433,cylindrical_union_of_spheres,2,11,4.10437924
+CB433,cylindrical_union_of_spheres,3,11,4.10836119
+CB441,cylindrical_union_of_spheres,1,11,3.65079083
+CB441,cylindrical_union_of_spheres,2,11,3.59479160
+CB441,cylindrical_union_of_spheres,3,11,3.46611931
+CB434,cylindrical_union_of_spheres,1,11,3.82230059
+CB434,cylindrical_union_of_spheres,2,11,3.81160433
+CB434,cylindrical_union_of_spheres,3,11,4.05028774
+CB442,cylindrical_union_of_spheres,1,11,2.90094595
+CB442,cylindrical_union_of_spheres,2,11,3.01278515
+CB442,cylindrical_union_of_spheres,3,11,2.88437240

@@ -1,0 +1,152 @@
+{
+  "figure": "S05",
+  "title": "Surface-height and waviness maps",
+  "ligand_order": [
+    "CB431",
+    "Nuvia cPrime",
+    "CB433",
+    "CB441",
+    "CB434",
+    "CB442"
+  ],
+  "files": [
+    {
+      "file": "CB431.csv",
+      "rows": 80379,
+      "data_level": "plotted",
+      "columns": {
+        "x_angstrom": {
+          "unit": "angstrom",
+          "description": "Physical x coordinate of the map grid point."
+        },
+        "y_angstrom": {
+          "unit": "angstrom",
+          "description": "Physical y coordinate of the map grid point."
+        },
+        "surface_height_angstrom": {
+          "unit": "angstrom",
+          "description": "Absolute height of the upper union-of-spheres boundary."
+        },
+        "waviness_angstrom": {
+          "unit": "angstrom",
+          "description": "Plane-detrended height after the original Gaussian low-pass filter."
+        }
+      }
+    },
+    {
+      "file": "CB433.csv",
+      "rows": 80377,
+      "data_level": "plotted",
+      "columns": {
+        "x_angstrom": {
+          "unit": "angstrom",
+          "description": "Physical x coordinate of the map grid point."
+        },
+        "y_angstrom": {
+          "unit": "angstrom",
+          "description": "Physical y coordinate of the map grid point."
+        },
+        "surface_height_angstrom": {
+          "unit": "angstrom",
+          "description": "Absolute height of the upper union-of-spheres boundary."
+        },
+        "waviness_angstrom": {
+          "unit": "angstrom",
+          "description": "Plane-detrended height after the original Gaussian low-pass filter."
+        }
+      }
+    },
+    {
+      "file": "CB434.csv",
+      "rows": 80373,
+      "data_level": "plotted",
+      "columns": {
+        "x_angstrom": {
+          "unit": "angstrom",
+          "description": "Physical x coordinate of the map grid point."
+        },
+        "y_angstrom": {
+          "unit": "angstrom",
+          "description": "Physical y coordinate of the map grid point."
+        },
+        "surface_height_angstrom": {
+          "unit": "angstrom",
+          "description": "Absolute height of the upper union-of-spheres boundary."
+        },
+        "waviness_angstrom": {
+          "unit": "angstrom",
+          "description": "Plane-detrended height after the original Gaussian low-pass filter."
+        }
+      }
+    },
+    {
+      "file": "CB441.csv",
+      "rows": 80376,
+      "data_level": "plotted",
+      "columns": {
+        "x_angstrom": {
+          "unit": "angstrom",
+          "description": "Physical x coordinate of the map grid point."
+        },
+        "y_angstrom": {
+          "unit": "angstrom",
+          "description": "Physical y coordinate of the map grid point."
+        },
+        "surface_height_angstrom": {
+          "unit": "angstrom",
+          "description": "Absolute height of the upper union-of-spheres boundary."
+        },
+        "waviness_angstrom": {
+          "unit": "angstrom",
+          "description": "Plane-detrended height after the original Gaussian low-pass filter."
+        }
+      }
+    },
+    {
+      "file": "CB442.csv",
+      "rows": 80376,
+      "data_level": "plotted",
+      "columns": {
+        "x_angstrom": {
+          "unit": "angstrom",
+          "description": "Physical x coordinate of the map grid point."
+        },
+        "y_angstrom": {
+          "unit": "angstrom",
+          "description": "Physical y coordinate of the map grid point."
+        },
+        "surface_height_angstrom": {
+          "unit": "angstrom",
+          "description": "Absolute height of the upper union-of-spheres boundary."
+        },
+        "waviness_angstrom": {
+          "unit": "angstrom",
+          "description": "Plane-detrended height after the original Gaussian low-pass filter."
+        }
+      }
+    },
+    {
+      "file": "Nuvia_cPrime.csv",
+      "rows": 80376,
+      "data_level": "plotted",
+      "columns": {
+        "x_angstrom": {
+          "unit": "angstrom",
+          "description": "Physical x coordinate of the map grid point."
+        },
+        "y_angstrom": {
+          "unit": "angstrom",
+          "description": "Physical y coordinate of the map grid point."
+        },
+        "surface_height_angstrom": {
+          "unit": "angstrom",
+          "description": "Absolute height of the upper union-of-spheres boundary."
+        },
+        "waviness_angstrom": {
+          "unit": "angstrom",
+          "description": "Plane-detrended height after the original Gaussian low-pass filter."
+        }
+      }
+    }
+  ]
+}

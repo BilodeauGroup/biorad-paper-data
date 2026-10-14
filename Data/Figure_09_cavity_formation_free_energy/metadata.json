@@ -1,0 +1,72 @@
+{
+  "figure": "09",
+  "title": "Cavity-formation free energy for the two probe geometries",
+  "ligand_order": [
+    "CB431",
+    "Nuvia cPrime",
+    "CB433",
+    "CB441",
+    "CB434",
+    "CB442"
+  ],
+  "files": [
+    {
+      "file": "free_energy_by_replicate.csv",
+      "rows": 36,
+      "data_level": "analysis",
+      "columns": {
+        "ligand": {
+          "unit": "text",
+          "description": "Ligand name."
+        },
+        "probe_geometry": {
+          "unit": "text",
+          "description": "cylindrical or cylindrical_union_of_spheres."
+        },
+        "replicate": {
+          "unit": "index",
+          "description": "Simulation replica identifier 1–3, not a separate probe location."
+        },
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias."
+        },
+        "normalized_beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F/N0 at the occupancy corresponding to beta*phi=11."
+        }
+      }
+    },
+    {
+      "file": "free_energy_summary.csv",
+      "rows": 12,
+      "data_level": "plotted_summary",
+      "columns": {
+        "ligand": {
+          "unit": "text",
+          "description": "Ligand name."
+        },
+        "probe_geometry": {
+          "unit": "text",
+          "description": "Probe-volume geometry."
+        },
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias."
+        },
+        "normalized_beta_free_energy_mean": {
+          "unit": "dimensionless",
+          "description": "Mean dimensionless beta*F/N0 across replicas."
+        },
+        "normalized_beta_free_energy_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation, ddof=1."
+        },
+        "n_replicates": {
+          "unit": "count",
+          "description": "Number of simulation replicas."
+        }
+      }
+    }
+  ]
+}

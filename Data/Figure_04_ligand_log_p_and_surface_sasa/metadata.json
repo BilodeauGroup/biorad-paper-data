@@ -1,0 +1,91 @@
+{
+  "figure": "04",
+  "title": "Ligand logP and surface solvent-accessible area",
+  "ligand_order": [
+    "CB431",
+    "Nuvia cPrime",
+    "CB433",
+    "CB441",
+    "CB434",
+    "CB442"
+  ],
+  "files": [
+    {
+      "file": "ligand_log_p.csv",
+      "rows": 6,
+      "data_level": "plotted",
+      "columns": {
+        "ligand": {
+          "unit": "text",
+          "description": "Ligand name"
+        },
+        "log_p": {
+          "unit": "dimensionless",
+          "description": "Calculated ligand logP value displayed in Figure 4"
+        }
+      }
+    },
+    {
+      "file": "surface_sasa.csv",
+      "rows": 18,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "ligand": {
+          "unit": "text",
+          "description": "Ligand name"
+        },
+        "chemical_category": {
+          "unit": "text",
+          "description": "Charged, polar, or hydrophobic surface groups"
+        },
+        "mean_sasa_angstrom2": {
+          "unit": "angstrom^2",
+          "description": "Mean solvent-accessible surface area in the supplied analysis table"
+        },
+        "mean_sasa_nm2": {
+          "unit": "nm^2",
+          "description": "Mean solvent-accessible surface area plotted in Figure 4; angstrom^2 divided by 100"
+        },
+        "sd_sasa_angstrom2": {
+          "unit": "angstrom^2",
+          "description": "Sample standard deviation over the five analyzed frames (ddof=1)"
+        },
+        "sd_sasa_nm2": {
+          "unit": "nm^2",
+          "description": "Sample standard deviation converted to nm^2"
+        },
+        "n_frames": {
+          "unit": "integer",
+          "description": "Number of trajectory frames used in the surface-area mean"
+        }
+      }
+    },
+    {
+      "file": "surface_sasa_by_frame.csv",
+      "rows": 90,
+      "data_level": "analysis",
+      "columns": {
+        "ligand": {
+          "unit": "text",
+          "description": "Ligand name"
+        },
+        "trajectory_frame": {
+          "unit": "integer",
+          "description": "Trajectory frame index retained from the SASA analysis"
+        },
+        "chemical_category": {
+          "unit": "text",
+          "description": "Charged, polar, or hydrophobic surface groups"
+        },
+        "sasa_angstrom2": {
+          "unit": "angstrom^2",
+          "description": "Solvent-accessible surface area for one category and frame"
+        },
+        "sasa_nm2": {
+          "unit": "nm^2",
+          "description": "Per-frame solvent-accessible surface area converted to nm^2"
+        }
+      }
+    }
+  ]
+}

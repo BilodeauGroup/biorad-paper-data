@@ -1,0 +1,754 @@
+{
+  "figure": "12",
+  "title": "Cavity-formation free energy and SASA at three probe locations",
+  "ligand_order": [
+    "CB431",
+    "Nuvia cPrime",
+    "CB433",
+    "CB441",
+    "CB434",
+    "CB442"
+  ],
+  "files": [
+    {
+      "file": "CB431/free_energy_by_location.csv",
+      "rows": 3,
+      "data_level": "analysis",
+      "columns": {
+        "probe_location": {
+          "unit": "index",
+          "description": "Location identifier 1–3 on the ligand-functionalized surface."
+        },
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless bias at which occupancy is evaluated."
+        },
+        "normalized_beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F/N0 at the selected occupancy."
+        }
+      }
+    },
+    {
+      "file": "CB431/location_01/sasa_by_frame.csv",
+      "rows": 10,
+      "data_level": "analysis",
+      "columns": {
+        "xtc_frame": {
+          "unit": "frame index",
+          "description": "Zero-based XTC frame index."
+        },
+        "charged_sasa_angstrom2": {
+          "unit": "angstrom^2",
+          "description": "Charged-group SASA, Å^2."
+        },
+        "polar_sasa_angstrom2": {
+          "unit": "angstrom^2",
+          "description": "Polar-group SASA including linker, Å^2."
+        },
+        "hydrophobic_sasa_angstrom2": {
+          "unit": "angstrom^2",
+          "description": "Hydrophobic-group SASA, Å^2."
+        }
+      }
+    },
+    {
+      "file": "CB431/location_02/sasa_by_frame.csv",
+      "rows": 10,
+      "data_level": "analysis",
+      "columns": {
+        "xtc_frame": {
+          "unit": "frame index",
+          "description": "Zero-based XTC frame index."
+        },
+        "charged_sasa_angstrom2": {
+          "unit": "angstrom^2",
+          "description": "Charged-group SASA, Å^2."
+        },
+        "polar_sasa_angstrom2": {
+          "unit": "angstrom^2",
+          "description": "Polar-group SASA including linker, Å^2."
+        },
+        "hydrophobic_sasa_angstrom2": {
+          "unit": "angstrom^2",
+          "description": "Hydrophobic-group SASA, Å^2."
+        }
+      }
+    },
+    {
+      "file": "CB431/location_03/sasa_by_frame.csv",
+      "rows": 10,
+      "data_level": "analysis",
+      "columns": {
+        "xtc_frame": {
+          "unit": "frame index",
+          "description": "Zero-based XTC frame index."
+        },
+        "charged_sasa_angstrom2": {
+          "unit": "angstrom^2",
+          "description": "Charged-group SASA, Å^2."
+        },
+        "polar_sasa_angstrom2": {
+          "unit": "angstrom^2",
+          "description": "Polar-group SASA including linker, Å^2."
+        },
+        "hydrophobic_sasa_angstrom2": {
+          "unit": "angstrom^2",
+          "description": "Hydrophobic-group SASA, Å^2."
+        }
+      }
+    },
+    {
+      "file": "CB431/sasa_by_location.csv",
+      "rows": 3,
+      "data_level": "analysis",
+      "columns": {
+        "probe_location": {
+          "unit": "index",
+          "description": "Cylindrical location 1–3."
+        },
+        "n_frames": {
+          "unit": "count",
+          "description": "Number of trajectory frames per location."
+        },
+        "charged_sasa_nm2": {
+          "unit": "nm^2",
+          "description": "Mean charged-group SASA, nm^2."
+        },
+        "polar_sasa_nm2": {
+          "unit": "nm^2",
+          "description": "Mean polar-group SASA including linker, nm^2."
+        },
+        "hydrophobic_sasa_nm2": {
+          "unit": "nm^2",
+          "description": "Mean hydrophobic-group SASA, nm^2."
+        }
+      }
+    },
+    {
+      "file": "CB433/free_energy_by_location.csv",
+      "rows": 3,
+      "data_level": "analysis",
+      "columns": {
+        "probe_location": {
+          "unit": "index",
+          "description": "Location identifier 1–3 on the ligand-functionalized surface."
+        },
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless bias at which occupancy is evaluated."
+        },
+        "normalized_beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F/N0 at the selected occupancy."
+        }
+      }
+    },
+    {
+      "file": "CB433/location_01/sasa_by_frame.csv",
+      "rows": 10,
+      "data_level": "analysis",
+      "columns": {
+        "xtc_frame": {
+          "unit": "frame index",
+          "description": "Zero-based XTC frame index."
+        },
+        "charged_sasa_angstrom2": {
+          "unit": "angstrom^2",
+          "description": "Charged-group SASA, Å^2."
+        },
+        "polar_sasa_angstrom2": {
+          "unit": "angstrom^2",
+          "description": "Polar-group SASA including linker, Å^2."
+        },
+        "hydrophobic_sasa_angstrom2": {
+          "unit": "angstrom^2",
+          "description": "Hydrophobic-group SASA, Å^2."
+        }
+      }
+    },
+    {
+      "file": "CB433/location_02/sasa_by_frame.csv",
+      "rows": 10,
+      "data_level": "analysis",
+      "columns": {
+        "xtc_frame": {
+          "unit": "frame index",
+          "description": "Zero-based XTC frame index."
+        },
+        "charged_sasa_angstrom2": {
+          "unit": "angstrom^2",
+          "description": "Charged-group SASA, Å^2."
+        },
+        "polar_sasa_angstrom2": {
+          "unit": "angstrom^2",
+          "description": "Polar-group SASA including linker, Å^2."
+        },
+        "hydrophobic_sasa_angstrom2": {
+          "unit": "angstrom^2",
+          "description": "Hydrophobic-group SASA, Å^2."
+        }
+      }
+    },
+    {
+      "file": "CB433/location_03/sasa_by_frame.csv",
+      "rows": 10,
+      "data_level": "analysis",
+      "columns": {
+        "xtc_frame": {
+          "unit": "frame index",
+          "description": "Zero-based XTC frame index."
+        },
+        "charged_sasa_angstrom2": {
+          "unit": "angstrom^2",
+          "description": "Charged-group SASA, Å^2."
+        },
+        "polar_sasa_angstrom2": {
+          "unit": "angstrom^2",
+          "description": "Polar-group SASA including linker, Å^2."
+        },
+        "hydrophobic_sasa_angstrom2": {
+          "unit": "angstrom^2",
+          "description": "Hydrophobic-group SASA, Å^2."
+        }
+      }
+    },
+    {
+      "file": "CB433/sasa_by_location.csv",
+      "rows": 3,
+      "data_level": "analysis",
+      "columns": {
+        "probe_location": {
+          "unit": "index",
+          "description": "Cylindrical location 1–3."
+        },
+        "n_frames": {
+          "unit": "count",
+          "description": "Number of trajectory frames per location."
+        },
+        "charged_sasa_nm2": {
+          "unit": "nm^2",
+          "description": "Mean charged-group SASA, nm^2."
+        },
+        "polar_sasa_nm2": {
+          "unit": "nm^2",
+          "description": "Mean polar-group SASA including linker, nm^2."
+        },
+        "hydrophobic_sasa_nm2": {
+          "unit": "nm^2",
+          "description": "Mean hydrophobic-group SASA, nm^2."
+        }
+      }
+    },
+    {
+      "file": "CB434/free_energy_by_location.csv",
+      "rows": 3,
+      "data_level": "analysis",
+      "columns": {
+        "probe_location": {
+          "unit": "index",
+          "description": "Location identifier 1–3 on the ligand-functionalized surface."
+        },
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless bias at which occupancy is evaluated."
+        },
+        "normalized_beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F/N0 at the selected occupancy."
+        }
+      }
+    },
+    {
+      "file": "CB434/location_01/sasa_by_frame.csv",
+      "rows": 10,
+      "data_level": "analysis",
+      "columns": {
+        "xtc_frame": {
+          "unit": "frame index",
+          "description": "Zero-based XTC frame index."
+        },
+        "charged_sasa_angstrom2": {
+          "unit": "angstrom^2",
+          "description": "Charged-group SASA, Å^2."
+        },
+        "polar_sasa_angstrom2": {
+          "unit": "angstrom^2",
+          "description": "Polar-group SASA including linker, Å^2."
+        },
+        "hydrophobic_sasa_angstrom2": {
+          "unit": "angstrom^2",
+          "description": "Hydrophobic-group SASA, Å^2."
+        }
+      }
+    },
+    {
+      "file": "CB434/location_02/sasa_by_frame.csv",
+      "rows": 10,
+      "data_level": "analysis",
+      "columns": {
+        "xtc_frame": {
+          "unit": "frame index",
+          "description": "Zero-based XTC frame index."
+        },
+        "charged_sasa_angstrom2": {
+          "unit": "angstrom^2",
+          "description": "Charged-group SASA, Å^2."
+        },
+        "polar_sasa_angstrom2": {
+          "unit": "angstrom^2",
+          "description": "Polar-group SASA including linker, Å^2."
+        },
+        "hydrophobic_sasa_angstrom2": {
+          "unit": "angstrom^2",
+          "description": "Hydrophobic-group SASA, Å^2."
+        }
+      }
+    },
+    {
+      "file": "CB434/location_03/sasa_by_frame.csv",
+      "rows": 10,
+      "data_level": "analysis",
+      "columns": {
+        "xtc_frame": {
+          "unit": "frame index",
+          "description": "Zero-based XTC frame index."
+        },
+        "charged_sasa_angstrom2": {
+          "unit": "angstrom^2",
+          "description": "Charged-group SASA, Å^2."
+        },
+        "polar_sasa_angstrom2": {
+          "unit": "angstrom^2",
+          "description": "Polar-group SASA including linker, Å^2."
+        },
+        "hydrophobic_sasa_angstrom2": {
+          "unit": "angstrom^2",
+          "description": "Hydrophobic-group SASA, Å^2."
+        }
+      }
+    },
+    {
+      "file": "CB434/sasa_by_location.csv",
+      "rows": 3,
+      "data_level": "analysis",
+      "columns": {
+        "probe_location": {
+          "unit": "index",
+          "description": "Cylindrical location 1–3."
+        },
+        "n_frames": {
+          "unit": "count",
+          "description": "Number of trajectory frames per location."
+        },
+        "charged_sasa_nm2": {
+          "unit": "nm^2",
+          "description": "Mean charged-group SASA, nm^2."
+        },
+        "polar_sasa_nm2": {
+          "unit": "nm^2",
+          "description": "Mean polar-group SASA including linker, nm^2."
+        },
+        "hydrophobic_sasa_nm2": {
+          "unit": "nm^2",
+          "description": "Mean hydrophobic-group SASA, nm^2."
+        }
+      }
+    },
+    {
+      "file": "CB441/free_energy_by_location.csv",
+      "rows": 3,
+      "data_level": "analysis",
+      "columns": {
+        "probe_location": {
+          "unit": "index",
+          "description": "Location identifier 1–3 on the ligand-functionalized surface."
+        },
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless bias at which occupancy is evaluated."
+        },
+        "normalized_beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F/N0 at the selected occupancy."
+        }
+      }
+    },
+    {
+      "file": "CB441/location_01/sasa_by_frame.csv",
+      "rows": 10,
+      "data_level": "analysis",
+      "columns": {
+        "xtc_frame": {
+          "unit": "frame index",
+          "description": "Zero-based XTC frame index."
+        },
+        "charged_sasa_angstrom2": {
+          "unit": "angstrom^2",
+          "description": "Charged-group SASA, Å^2."
+        },
+        "polar_sasa_angstrom2": {
+          "unit": "angstrom^2",
+          "description": "Polar-group SASA including linker, Å^2."
+        },
+        "hydrophobic_sasa_angstrom2": {
+          "unit": "angstrom^2",
+          "description": "Hydrophobic-group SASA, Å^2."
+        }
+      }
+    },
+    {
+      "file": "CB441/location_02/sasa_by_frame.csv",
+      "rows": 10,
+      "data_level": "analysis",
+      "columns": {
+        "xtc_frame": {
+          "unit": "frame index",
+          "description": "Zero-based XTC frame index."
+        },
+        "charged_sasa_angstrom2": {
+          "unit": "angstrom^2",
+          "description": "Charged-group SASA, Å^2."
+        },
+        "polar_sasa_angstrom2": {
+          "unit": "angstrom^2",
+          "description": "Polar-group SASA including linker, Å^2."
+        },
+        "hydrophobic_sasa_angstrom2": {
+          "unit": "angstrom^2",
+          "description": "Hydrophobic-group SASA, Å^2."
+        }
+      }
+    },
+    {
+      "file": "CB441/location_03/sasa_by_frame.csv",
+      "rows": 10,
+      "data_level": "analysis",
+      "columns": {
+        "xtc_frame": {
+          "unit": "frame index",
+          "description": "Zero-based XTC frame index."
+        },
+        "charged_sasa_angstrom2": {
+          "unit": "angstrom^2",
+          "description": "Charged-group SASA, Å^2."
+        },
+        "polar_sasa_angstrom2": {
+          "unit": "angstrom^2",
+          "description": "Polar-group SASA including linker, Å^2."
+        },
+        "hydrophobic_sasa_angstrom2": {
+          "unit": "angstrom^2",
+          "description": "Hydrophobic-group SASA, Å^2."
+        }
+      }
+    },
+    {
+      "file": "CB441/sasa_by_location.csv",
+      "rows": 3,
+      "data_level": "analysis",
+      "columns": {
+        "probe_location": {
+          "unit": "index",
+          "description": "Cylindrical location 1–3."
+        },
+        "n_frames": {
+          "unit": "count",
+          "description": "Number of trajectory frames per location."
+        },
+        "charged_sasa_nm2": {
+          "unit": "nm^2",
+          "description": "Mean charged-group SASA, nm^2."
+        },
+        "polar_sasa_nm2": {
+          "unit": "nm^2",
+          "description": "Mean polar-group SASA including linker, nm^2."
+        },
+        "hydrophobic_sasa_nm2": {
+          "unit": "nm^2",
+          "description": "Mean hydrophobic-group SASA, nm^2."
+        }
+      }
+    },
+    {
+      "file": "CB442/free_energy_by_location.csv",
+      "rows": 3,
+      "data_level": "analysis",
+      "columns": {
+        "probe_location": {
+          "unit": "index",
+          "description": "Location identifier 1–3 on the ligand-functionalized surface."
+        },
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless bias at which occupancy is evaluated."
+        },
+        "normalized_beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F/N0 at the selected occupancy."
+        }
+      }
+    },
+    {
+      "file": "CB442/location_01/sasa_by_frame.csv",
+      "rows": 10,
+      "data_level": "analysis",
+      "columns": {
+        "xtc_frame": {
+          "unit": "frame index",
+          "description": "Zero-based XTC frame index."
+        },
+        "charged_sasa_angstrom2": {
+          "unit": "angstrom^2",
+          "description": "Charged-group SASA, Å^2."
+        },
+        "polar_sasa_angstrom2": {
+          "unit": "angstrom^2",
+          "description": "Polar-group SASA including linker, Å^2."
+        },
+        "hydrophobic_sasa_angstrom2": {
+          "unit": "angstrom^2",
+          "description": "Hydrophobic-group SASA, Å^2."
+        }
+      }
+    },
+    {
+      "file": "CB442/location_02/sasa_by_frame.csv",
+      "rows": 10,
+      "data_level": "analysis",
+      "columns": {
+        "xtc_frame": {
+          "unit": "frame index",
+          "description": "Zero-based XTC frame index."
+        },
+        "charged_sasa_angstrom2": {
+          "unit": "angstrom^2",
+          "description": "Charged-group SASA, Å^2."
+        },
+        "polar_sasa_angstrom2": {
+          "unit": "angstrom^2",
+          "description": "Polar-group SASA including linker, Å^2."
+        },
+        "hydrophobic_sasa_angstrom2": {
+          "unit": "angstrom^2",
+          "description": "Hydrophobic-group SASA, Å^2."
+        }
+      }
+    },
+    {
+      "file": "CB442/location_03/sasa_by_frame.csv",
+      "rows": 10,
+      "data_level": "analysis",
+      "columns": {
+        "xtc_frame": {
+          "unit": "frame index",
+          "description": "Zero-based XTC frame index."
+        },
+        "charged_sasa_angstrom2": {
+          "unit": "angstrom^2",
+          "description": "Charged-group SASA, Å^2."
+        },
+        "polar_sasa_angstrom2": {
+          "unit": "angstrom^2",
+          "description": "Polar-group SASA including linker, Å^2."
+        },
+        "hydrophobic_sasa_angstrom2": {
+          "unit": "angstrom^2",
+          "description": "Hydrophobic-group SASA, Å^2."
+        }
+      }
+    },
+    {
+      "file": "CB442/sasa_by_location.csv",
+      "rows": 3,
+      "data_level": "analysis",
+      "columns": {
+        "probe_location": {
+          "unit": "index",
+          "description": "Cylindrical location 1–3."
+        },
+        "n_frames": {
+          "unit": "count",
+          "description": "Number of trajectory frames per location."
+        },
+        "charged_sasa_nm2": {
+          "unit": "nm^2",
+          "description": "Mean charged-group SASA, nm^2."
+        },
+        "polar_sasa_nm2": {
+          "unit": "nm^2",
+          "description": "Mean polar-group SASA including linker, nm^2."
+        },
+        "hydrophobic_sasa_nm2": {
+          "unit": "nm^2",
+          "description": "Mean hydrophobic-group SASA, nm^2."
+        }
+      }
+    },
+    {
+      "file": "Nuvia_cPrime/free_energy_by_location.csv",
+      "rows": 3,
+      "data_level": "analysis",
+      "columns": {
+        "probe_location": {
+          "unit": "index",
+          "description": "Location identifier 1–3 on the ligand-functionalized surface."
+        },
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless bias at which occupancy is evaluated."
+        },
+        "normalized_beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F/N0 at the selected occupancy."
+        }
+      }
+    },
+    {
+      "file": "Nuvia_cPrime/location_01/sasa_by_frame.csv",
+      "rows": 10,
+      "data_level": "analysis",
+      "columns": {
+        "xtc_frame": {
+          "unit": "frame index",
+          "description": "Zero-based XTC frame index."
+        },
+        "charged_sasa_angstrom2": {
+          "unit": "angstrom^2",
+          "description": "Charged-group SASA, Å^2."
+        },
+        "polar_sasa_angstrom2": {
+          "unit": "angstrom^2",
+          "description": "Polar-group SASA including linker, Å^2."
+        },
+        "hydrophobic_sasa_angstrom2": {
+          "unit": "angstrom^2",
+          "description": "Hydrophobic-group SASA, Å^2."
+        }
+      }
+    },
+    {
+      "file": "Nuvia_cPrime/location_02/sasa_by_frame.csv",
+      "rows": 10,
+      "data_level": "analysis",
+      "columns": {
+        "xtc_frame": {
+          "unit": "frame index",
+          "description": "Zero-based XTC frame index."
+        },
+        "charged_sasa_angstrom2": {
+          "unit": "angstrom^2",
+          "description": "Charged-group SASA, Å^2."
+        },
+        "polar_sasa_angstrom2": {
+          "unit": "angstrom^2",
+          "description": "Polar-group SASA including linker, Å^2."
+        },
+        "hydrophobic_sasa_angstrom2": {
+          "unit": "angstrom^2",
+          "description": "Hydrophobic-group SASA, Å^2."
+        }
+      }
+    },
+    {
+      "file": "Nuvia_cPrime/location_03/sasa_by_frame.csv",
+      "rows": 10,
+      "data_level": "analysis",
+      "columns": {
+        "xtc_frame": {
+          "unit": "frame index",
+          "description": "Zero-based XTC frame index."
+        },
+        "charged_sasa_angstrom2": {
+          "unit": "angstrom^2",
+          "description": "Charged-group SASA, Å^2."
+        },
+        "polar_sasa_angstrom2": {
+          "unit": "angstrom^2",
+          "description": "Polar-group SASA including linker, Å^2."
+        },
+        "hydrophobic_sasa_angstrom2": {
+          "unit": "angstrom^2",
+          "description": "Hydrophobic-group SASA, Å^2."
+        }
+      }
+    },
+    {
+      "file": "Nuvia_cPrime/sasa_by_location.csv",
+      "rows": 3,
+      "data_level": "analysis",
+      "columns": {
+        "probe_location": {
+          "unit": "index",
+          "description": "Cylindrical location 1–3."
+        },
+        "n_frames": {
+          "unit": "count",
+          "description": "Number of trajectory frames per location."
+        },
+        "charged_sasa_nm2": {
+          "unit": "nm^2",
+          "description": "Mean charged-group SASA, nm^2."
+        },
+        "polar_sasa_nm2": {
+          "unit": "nm^2",
+          "description": "Mean polar-group SASA including linker, nm^2."
+        },
+        "hydrophobic_sasa_nm2": {
+          "unit": "nm^2",
+          "description": "Mean hydrophobic-group SASA, nm^2."
+        }
+      }
+    },
+    {
+      "file": "free_energy_summary.csv",
+      "rows": 6,
+      "data_level": "plotted_summary",
+      "columns": {
+        "ligand": {
+          "unit": "text",
+          "description": "Ligand name."
+        },
+        "normalized_beta_free_energy_mean": {
+          "unit": "dimensionless",
+          "description": "Mean dimensionless beta*F/N0 across locations."
+        },
+        "normalized_beta_free_energy_sd": {
+          "unit": "dimensionless",
+          "description": "Sample SD across three locations, ddof=1."
+        },
+        "n_locations": {
+          "unit": "count",
+          "description": "Number of probe locations."
+        }
+      }
+    },
+    {
+      "file": "sasa_summary.csv",
+      "rows": 18,
+      "data_level": "plotted_summary",
+      "columns": {
+        "ligand": {
+          "unit": "text",
+          "description": "Ligand name."
+        },
+        "chemical_category": {
+          "unit": "text",
+          "description": "charged, polar or hydrophobic. Polar includes the linker."
+        },
+        "mean_sasa_nm2": {
+          "unit": "nm^2",
+          "description": "Mean SASA across three location means, in nm^2."
+        },
+        "sd_sasa_nm2": {
+          "unit": "nm^2",
+          "description": "Sample SD across location means, ddof=1, in nm^2."
+        },
+        "n_locations": {
+          "unit": "count",
+          "description": "Number of cylindrical probe locations."
+        }
+      }
+    }
+  ]
+}

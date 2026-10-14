@@ -1,0 +1,614 @@
+{
+  "figure": "07",
+  "title": "Water occupancy in the inner and outer probe regions",
+  "ligand_order": [
+    "CB431",
+    "Nuvia cPrime",
+    "CB433",
+    "CB441",
+    "CB434",
+    "CB442"
+  ],
+  "files": [
+    {
+      "file": "CB431/region_water_counts_summary.csv",
+      "rows": 70,
+      "data_level": "plotted_summary",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias strength, beta times phi"
+        },
+        "inner_water_count_mean": {
+          "unit": "molecules",
+          "description": "Mean across replicas of the smoothed inner-region water count"
+        },
+        "inner_water_count_sd": {
+          "unit": "molecules",
+          "description": "Sample standard deviation across replicas of the smoothed inner-region water count (ddof=1)"
+        },
+        "outer_water_count_mean": {
+          "unit": "molecules",
+          "description": "Mean across replicas of the smoothed outer-region water count"
+        },
+        "outer_water_count_sd": {
+          "unit": "molecules",
+          "description": "Sample standard deviation across replicas of the smoothed outer-region water count (ddof=1)"
+        },
+        "n_replicates": {
+          "unit": "integer",
+          "description": "Number of replicas contributing to the summary"
+        }
+      }
+    },
+    {
+      "file": "CB431/replicate_01/region_water_counts.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias strength, beta times phi"
+        },
+        "inner_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the inner region before display smoothing"
+        },
+        "outer_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the outer region before display smoothing"
+        },
+        "total_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the full local union of spheres"
+        }
+      }
+    },
+    {
+      "file": "CB431/replicate_02/region_water_counts.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias strength, beta times phi"
+        },
+        "inner_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the inner region before display smoothing"
+        },
+        "outer_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the outer region before display smoothing"
+        },
+        "total_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the full local union of spheres"
+        }
+      }
+    },
+    {
+      "file": "CB431/replicate_03/region_water_counts.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias strength, beta times phi"
+        },
+        "inner_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the inner region before display smoothing"
+        },
+        "outer_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the outer region before display smoothing"
+        },
+        "total_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the full local union of spheres"
+        }
+      }
+    },
+    {
+      "file": "CB433/region_water_counts_summary.csv",
+      "rows": 70,
+      "data_level": "plotted_summary",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias strength, beta times phi"
+        },
+        "inner_water_count_mean": {
+          "unit": "molecules",
+          "description": "Mean across replicas of the smoothed inner-region water count"
+        },
+        "inner_water_count_sd": {
+          "unit": "molecules",
+          "description": "Sample standard deviation across replicas of the smoothed inner-region water count (ddof=1)"
+        },
+        "outer_water_count_mean": {
+          "unit": "molecules",
+          "description": "Mean across replicas of the smoothed outer-region water count"
+        },
+        "outer_water_count_sd": {
+          "unit": "molecules",
+          "description": "Sample standard deviation across replicas of the smoothed outer-region water count (ddof=1)"
+        },
+        "n_replicates": {
+          "unit": "integer",
+          "description": "Number of replicas contributing to the summary"
+        }
+      }
+    },
+    {
+      "file": "CB433/replicate_01/region_water_counts.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias strength, beta times phi"
+        },
+        "inner_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the inner region before display smoothing"
+        },
+        "outer_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the outer region before display smoothing"
+        },
+        "total_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the full local union of spheres"
+        }
+      }
+    },
+    {
+      "file": "CB433/replicate_02/region_water_counts.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias strength, beta times phi"
+        },
+        "inner_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the inner region before display smoothing"
+        },
+        "outer_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the outer region before display smoothing"
+        },
+        "total_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the full local union of spheres"
+        }
+      }
+    },
+    {
+      "file": "CB433/replicate_03/region_water_counts.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias strength, beta times phi"
+        },
+        "inner_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the inner region before display smoothing"
+        },
+        "outer_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the outer region before display smoothing"
+        },
+        "total_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the full local union of spheres"
+        }
+      }
+    },
+    {
+      "file": "CB434/region_water_counts_summary.csv",
+      "rows": 70,
+      "data_level": "plotted_summary",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias strength, beta times phi"
+        },
+        "inner_water_count_mean": {
+          "unit": "molecules",
+          "description": "Mean across replicas of the smoothed inner-region water count"
+        },
+        "inner_water_count_sd": {
+          "unit": "molecules",
+          "description": "Sample standard deviation across replicas of the smoothed inner-region water count (ddof=1)"
+        },
+        "outer_water_count_mean": {
+          "unit": "molecules",
+          "description": "Mean across replicas of the smoothed outer-region water count"
+        },
+        "outer_water_count_sd": {
+          "unit": "molecules",
+          "description": "Sample standard deviation across replicas of the smoothed outer-region water count (ddof=1)"
+        },
+        "n_replicates": {
+          "unit": "integer",
+          "description": "Number of replicas contributing to the summary"
+        }
+      }
+    },
+    {
+      "file": "CB434/replicate_01/region_water_counts.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias strength, beta times phi"
+        },
+        "inner_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the inner region before display smoothing"
+        },
+        "outer_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the outer region before display smoothing"
+        },
+        "total_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the full local union of spheres"
+        }
+      }
+    },
+    {
+      "file": "CB434/replicate_02/region_water_counts.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias strength, beta times phi"
+        },
+        "inner_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the inner region before display smoothing"
+        },
+        "outer_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the outer region before display smoothing"
+        },
+        "total_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the full local union of spheres"
+        }
+      }
+    },
+    {
+      "file": "CB434/replicate_03/region_water_counts.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias strength, beta times phi"
+        },
+        "inner_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the inner region before display smoothing"
+        },
+        "outer_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the outer region before display smoothing"
+        },
+        "total_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the full local union of spheres"
+        }
+      }
+    },
+    {
+      "file": "CB441/region_water_counts_summary.csv",
+      "rows": 70,
+      "data_level": "plotted_summary",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias strength, beta times phi"
+        },
+        "inner_water_count_mean": {
+          "unit": "molecules",
+          "description": "Mean across replicas of the smoothed inner-region water count"
+        },
+        "inner_water_count_sd": {
+          "unit": "molecules",
+          "description": "Sample standard deviation across replicas of the smoothed inner-region water count (ddof=1)"
+        },
+        "outer_water_count_mean": {
+          "unit": "molecules",
+          "description": "Mean across replicas of the smoothed outer-region water count"
+        },
+        "outer_water_count_sd": {
+          "unit": "molecules",
+          "description": "Sample standard deviation across replicas of the smoothed outer-region water count (ddof=1)"
+        },
+        "n_replicates": {
+          "unit": "integer",
+          "description": "Number of replicas contributing to the summary"
+        }
+      }
+    },
+    {
+      "file": "CB441/replicate_01/region_water_counts.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias strength, beta times phi"
+        },
+        "inner_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the inner region before display smoothing"
+        },
+        "outer_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the outer region before display smoothing"
+        },
+        "total_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the full local union of spheres"
+        }
+      }
+    },
+    {
+      "file": "CB441/replicate_02/region_water_counts.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias strength, beta times phi"
+        },
+        "inner_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the inner region before display smoothing"
+        },
+        "outer_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the outer region before display smoothing"
+        },
+        "total_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the full local union of spheres"
+        }
+      }
+    },
+    {
+      "file": "CB441/replicate_03/region_water_counts.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias strength, beta times phi"
+        },
+        "inner_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the inner region before display smoothing"
+        },
+        "outer_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the outer region before display smoothing"
+        },
+        "total_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the full local union of spheres"
+        }
+      }
+    },
+    {
+      "file": "CB442/region_water_counts_summary.csv",
+      "rows": 70,
+      "data_level": "plotted_summary",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias strength, beta times phi"
+        },
+        "inner_water_count_mean": {
+          "unit": "molecules",
+          "description": "Mean across replicas of the smoothed inner-region water count"
+        },
+        "inner_water_count_sd": {
+          "unit": "molecules",
+          "description": "Sample standard deviation across replicas of the smoothed inner-region water count (ddof=1)"
+        },
+        "outer_water_count_mean": {
+          "unit": "molecules",
+          "description": "Mean across replicas of the smoothed outer-region water count"
+        },
+        "outer_water_count_sd": {
+          "unit": "molecules",
+          "description": "Sample standard deviation across replicas of the smoothed outer-region water count (ddof=1)"
+        },
+        "n_replicates": {
+          "unit": "integer",
+          "description": "Number of replicas contributing to the summary"
+        }
+      }
+    },
+    {
+      "file": "CB442/replicate_01/region_water_counts.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias strength, beta times phi"
+        },
+        "inner_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the inner region before display smoothing"
+        },
+        "outer_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the outer region before display smoothing"
+        },
+        "total_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the full local union of spheres"
+        }
+      }
+    },
+    {
+      "file": "CB442/replicate_02/region_water_counts.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias strength, beta times phi"
+        },
+        "inner_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the inner region before display smoothing"
+        },
+        "outer_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the outer region before display smoothing"
+        },
+        "total_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the full local union of spheres"
+        }
+      }
+    },
+    {
+      "file": "CB442/replicate_03/region_water_counts.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias strength, beta times phi"
+        },
+        "inner_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the inner region before display smoothing"
+        },
+        "outer_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the outer region before display smoothing"
+        },
+        "total_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the full local union of spheres"
+        }
+      }
+    },
+    {
+      "file": "Nuvia_cPrime/region_water_counts_summary.csv",
+      "rows": 70,
+      "data_level": "plotted_summary",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias strength, beta times phi"
+        },
+        "inner_water_count_mean": {
+          "unit": "molecules",
+          "description": "Mean across replicas of the smoothed inner-region water count"
+        },
+        "inner_water_count_sd": {
+          "unit": "molecules",
+          "description": "Sample standard deviation across replicas of the smoothed inner-region water count (ddof=1)"
+        },
+        "outer_water_count_mean": {
+          "unit": "molecules",
+          "description": "Mean across replicas of the smoothed outer-region water count"
+        },
+        "outer_water_count_sd": {
+          "unit": "molecules",
+          "description": "Sample standard deviation across replicas of the smoothed outer-region water count (ddof=1)"
+        },
+        "n_replicates": {
+          "unit": "integer",
+          "description": "Number of replicas contributing to the summary"
+        }
+      }
+    },
+    {
+      "file": "Nuvia_cPrime/replicate_01/region_water_counts.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias strength, beta times phi"
+        },
+        "inner_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the inner region before display smoothing"
+        },
+        "outer_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the outer region before display smoothing"
+        },
+        "total_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the full local union of spheres"
+        }
+      }
+    },
+    {
+      "file": "Nuvia_cPrime/replicate_02/region_water_counts.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias strength, beta times phi"
+        },
+        "inner_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the inner region before display smoothing"
+        },
+        "outer_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the outer region before display smoothing"
+        },
+        "total_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the full local union of spheres"
+        }
+      }
+    },
+    {
+      "file": "Nuvia_cPrime/replicate_03/region_water_counts.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias strength, beta times phi"
+        },
+        "inner_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the inner region before display smoothing"
+        },
+        "outer_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the outer region before display smoothing"
+        },
+        "total_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the full local union of spheres"
+        }
+      }
+    }
+  ]
+}

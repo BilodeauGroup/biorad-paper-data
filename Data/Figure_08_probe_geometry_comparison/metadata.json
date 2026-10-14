@@ -1,0 +1,314 @@
+{
+  "figure": "08",
+  "title": "Comparison of cylindrical and cylindrical union of spheres probes",
+  "ligand_order": [
+    "CB433",
+    "CB434"
+  ],
+  "files": [
+    {
+      "file": "CB433/cylindrical/occupancy_summary.csv",
+      "rows": 70,
+      "data_level": "plotted_summary",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*phi."
+        },
+        "normalized_water_count_mean": {
+          "unit": "dimensionless",
+          "description": "Dimensionless normalized water count; each replica is smoothed before division by its smoothed zero-bias value. Sample SD uses ddof=1."
+        },
+        "normalized_water_count_sd": {
+          "unit": "dimensionless",
+          "description": "Dimensionless normalized water count; each replica is smoothed before division by its smoothed zero-bias value. Sample SD uses ddof=1."
+        },
+        "replicate_01_normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Dimensionless normalized water count; each replica is smoothed before division by its smoothed zero-bias value. Sample SD uses ddof=1."
+        },
+        "replicate_02_normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Dimensionless normalized water count; each replica is smoothed before division by its smoothed zero-bias value. Sample SD uses ddof=1."
+        },
+        "replicate_03_normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Dimensionless normalized water count; each replica is smoothed before division by its smoothed zero-bias value. Sample SD uses ddof=1."
+        }
+      }
+    },
+    {
+      "file": "CB433/cylindrical/replicate_01/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "CB433/cylindrical/replicate_02/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "CB433/cylindrical/replicate_03/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "CB433/cylindrical_union_of_spheres/occupancy_summary.csv",
+      "rows": 70,
+      "data_level": "plotted_summary",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*phi."
+        },
+        "normalized_water_count_mean": {
+          "unit": "dimensionless",
+          "description": "Dimensionless normalized water count; each replica is smoothed before division by its smoothed zero-bias value. Sample SD uses ddof=1."
+        },
+        "normalized_water_count_sd": {
+          "unit": "dimensionless",
+          "description": "Dimensionless normalized water count; each replica is smoothed before division by its smoothed zero-bias value. Sample SD uses ddof=1."
+        },
+        "replicate_01_normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Dimensionless normalized water count; each replica is smoothed before division by its smoothed zero-bias value. Sample SD uses ddof=1."
+        },
+        "replicate_02_normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Dimensionless normalized water count; each replica is smoothed before division by its smoothed zero-bias value. Sample SD uses ddof=1."
+        },
+        "replicate_03_normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Dimensionless normalized water count; each replica is smoothed before division by its smoothed zero-bias value. Sample SD uses ddof=1."
+        }
+      }
+    },
+    {
+      "file": "CB433/cylindrical_union_of_spheres/replicate_01/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "CB433/cylindrical_union_of_spheres/replicate_02/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "CB433/cylindrical_union_of_spheres/replicate_03/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "CB434/cylindrical/occupancy_summary.csv",
+      "rows": 70,
+      "data_level": "plotted_summary",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*phi."
+        },
+        "normalized_water_count_mean": {
+          "unit": "dimensionless",
+          "description": "Dimensionless normalized water count; each replica is smoothed before division by its smoothed zero-bias value. Sample SD uses ddof=1."
+        },
+        "normalized_water_count_sd": {
+          "unit": "dimensionless",
+          "description": "Dimensionless normalized water count; each replica is smoothed before division by its smoothed zero-bias value. Sample SD uses ddof=1."
+        },
+        "replicate_01_normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Dimensionless normalized water count; each replica is smoothed before division by its smoothed zero-bias value. Sample SD uses ddof=1."
+        },
+        "replicate_02_normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Dimensionless normalized water count; each replica is smoothed before division by its smoothed zero-bias value. Sample SD uses ddof=1."
+        },
+        "replicate_03_normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Dimensionless normalized water count; each replica is smoothed before division by its smoothed zero-bias value. Sample SD uses ddof=1."
+        }
+      }
+    },
+    {
+      "file": "CB434/cylindrical/replicate_01/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "CB434/cylindrical/replicate_02/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "CB434/cylindrical/replicate_03/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "CB434/cylindrical_union_of_spheres/occupancy_summary.csv",
+      "rows": 70,
+      "data_level": "plotted_summary",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*phi."
+        },
+        "normalized_water_count_mean": {
+          "unit": "dimensionless",
+          "description": "Dimensionless normalized water count; each replica is smoothed before division by its smoothed zero-bias value. Sample SD uses ddof=1."
+        },
+        "normalized_water_count_sd": {
+          "unit": "dimensionless",
+          "description": "Dimensionless normalized water count; each replica is smoothed before division by its smoothed zero-bias value. Sample SD uses ddof=1."
+        },
+        "replicate_01_normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Dimensionless normalized water count; each replica is smoothed before division by its smoothed zero-bias value. Sample SD uses ddof=1."
+        },
+        "replicate_02_normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Dimensionless normalized water count; each replica is smoothed before division by its smoothed zero-bias value. Sample SD uses ddof=1."
+        },
+        "replicate_03_normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Dimensionless normalized water count; each replica is smoothed before division by its smoothed zero-bias value. Sample SD uses ddof=1."
+        }
+      }
+    },
+    {
+      "file": "CB434/cylindrical_union_of_spheres/replicate_01/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "CB434/cylindrical_union_of_spheres/replicate_02/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "CB434/cylindrical_union_of_spheres/replicate_03/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    }
+  ]
+}

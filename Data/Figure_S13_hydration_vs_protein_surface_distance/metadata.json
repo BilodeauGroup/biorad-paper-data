@@ -1,0 +1,100 @@
+{
+  "figure": "S13",
+  "title": "Chemical-group hydration as a function of protein-surface separation",
+  "ligand_order": [
+    "Nuvia cPrime",
+    "CB434",
+    "CB442"
+  ],
+  "files": [
+    {
+      "file": "CB434.csv",
+      "rows": 60,
+      "data_level": "plotted",
+      "columns": {
+        "com_distance_nm": {
+          "unit": "nm",
+          "description": "Distance between the protein and surface centres of mass."
+        },
+        "phenyl_2_mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count around the phenyl 2 group selection."
+        },
+        "carboxylate_mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count around the carboxylate group selection."
+        },
+        "amide_mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count around the amide group selection."
+        },
+        "phenyl_1_mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count around the phenyl 1 group selection."
+        },
+        "hydroxyl_mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count around the hydroxyl group selection."
+        }
+      }
+    },
+    {
+      "file": "CB442.csv",
+      "rows": 64,
+      "data_level": "plotted",
+      "columns": {
+        "com_distance_nm": {
+          "unit": "nm",
+          "description": "Distance between the protein and surface centres of mass."
+        },
+        "butyl_mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count around the butyl group selection."
+        },
+        "carboxylate_mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count around the carboxylate group selection."
+        },
+        "amide_mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count around the amide group selection."
+        },
+        "phenyl_mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count around the phenyl group selection."
+        },
+        "hydroxyl_mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count around the hydroxyl group selection."
+        }
+      }
+    },
+    {
+      "file": "Nuvia_cPrime.csv",
+      "rows": 66,
+      "data_level": "plotted",
+      "columns": {
+        "com_distance_nm": {
+          "unit": "nm",
+          "description": "Distance between the protein and surface centres of mass."
+        },
+        "carboxylate_mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count around the carboxylate group selection."
+        },
+        "amide_mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count around the amide group selection."
+        },
+        "phenyl_mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count around the phenyl group selection."
+        },
+        "hydroxyl_mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count around the hydroxyl group selection."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "figure": "S08",
+  "title": "Protein footprints in the bound state",
+  "ligand_order": [
+    "Nuvia cPrime",
+    "CB434",
+    "CB442"
+  ],
+  "files": [
+    {
+      "file": "CB434.csv",
+      "rows": 32400,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "display_x": {
+          "unit": "display coordinate",
+          "description": "Horizontal coordinate used in the original figure; not an unscaled physical coordinate."
+        },
+        "display_y": {
+          "unit": "display coordinate",
+          "description": "Vertical coordinate used in the original figure; not an unscaled physical coordinate."
+        },
+        "water_density_atoms_per_angstrom3": {
+          "unit": "atoms/angstrom^3",
+          "description": "Time-averaged water oxygen number density, after the original periodic recentering."
+        },
+        "dewetted_mask": {
+          "unit": "0 or 1",
+          "description": "1 if water density is below 0.002 atoms/angstrom^3; 0 otherwise."
+        },
+        "source_x_angstrom": {
+          "unit": "angstrom",
+          "description": "Original physical x-bin centre associated with this recentered pixel."
+        },
+        "source_y_angstrom": {
+          "unit": "angstrom",
+          "description": "Original physical y-bin centre associated with this recentered pixel."
+        }
+      }
+    },
+    {
+      "file": "CB442.csv",
+      "rows": 32400,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "display_x": {
+          "unit": "display coordinate",
+          "description": "Horizontal coordinate used in the original figure; not an unscaled physical coordinate."
+        },
+        "display_y": {
+          "unit": "display coordinate",
+          "description": "Vertical coordinate used in the original figure; not an unscaled physical coordinate."
+        },
+        "water_density_atoms_per_angstrom3": {
+          "unit": "atoms/angstrom^3",
+          "description": "Time-averaged water oxygen number density, after the original periodic recentering."
+        },
+        "dewetted_mask": {
+          "unit": "0 or 1",
+          "description": "1 if water density is below 0.002 atoms/angstrom^3; 0 otherwise."
+        },
+        "source_x_angstrom": {
+          "unit": "angstrom",
+          "description": "Original physical x-bin centre associated with this recentered pixel."
+        },
+        "source_y_angstrom": {
+          "unit": "angstrom",
+          "description": "Original physical y-bin centre associated with this recentered pixel."
+        }
+      }
+    },
+    {
+      "file": "Nuvia_cPrime.csv",
+      "rows": 32400,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "display_x": {
+          "unit": "display coordinate",
+          "description": "Horizontal coordinate used in the original figure; not an unscaled physical coordinate."
+        },
+        "display_y": {
+          "unit": "display coordinate",
+          "description": "Vertical coordinate used in the original figure; not an unscaled physical coordinate."
+        },
+        "water_density_atoms_per_angstrom3": {
+          "unit": "atoms/angstrom^3",
+          "description": "Time-averaged water oxygen number density, after the original periodic recentering."
+        },
+        "dewetted_mask": {
+          "unit": "0 or 1",
+          "description": "1 if water density is below 0.002 atoms/angstrom^3; 0 otherwise."
+        },
+        "source_x_angstrom": {
+          "unit": "angstrom",
+          "description": "Original physical x-bin centre associated with this recentered pixel."
+        },
+        "source_y_angstrom": {
+          "unit": "angstrom",
+          "description": "Original physical y-bin centre associated with this recentered pixel."
+        }
+      }
+    }
+  ]
+}

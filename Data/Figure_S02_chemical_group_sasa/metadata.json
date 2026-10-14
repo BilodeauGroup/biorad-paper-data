@@ -1,0 +1,37 @@
+{
+  "figure": "S02",
+  "title": "Chemical-group SASA within local union of spheres probes",
+  "ligand_order": [
+    "CB431",
+    "Nuvia cPrime",
+    "CB433",
+    "CB441",
+    "CB434",
+    "CB442"
+  ],
+  "files": [
+    {
+      "file": "sasa_by_category.csv",
+      "rows": 18,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "ligand": {
+          "unit": "identifier",
+          "description": "Ligand-functionalized surface."
+        },
+        "chemical_category": {
+          "unit": "category",
+          "description": "Charged, polar, or hydrophobic surface groups."
+        },
+        "mean_sasa_angstrom2": {
+          "unit": "angstrom^2",
+          "description": "Mean solvent-accessible surface area within the local union of spheres probe volume, in original analysis units."
+        },
+        "mean_sasa_nm2": {
+          "unit": "nm^2",
+          "description": "Mean SASA in figure-axis units; mean_sasa_angstrom2 divided by 100."
+        }
+      }
+    }
+  ]
+}

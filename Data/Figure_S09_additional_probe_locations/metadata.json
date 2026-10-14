@@ -1,0 +1,566 @@
+{
+  "figure": "S09",
+  "title": "Water occupancy and free energy at probe locations 2 and 3",
+  "ligand_order": [
+    "CB431",
+    "Nuvia cPrime",
+    "CB433",
+    "CB441",
+    "CB434",
+    "CB442"
+  ],
+  "files": [
+    {
+      "file": "location_02/CB431/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean occupancy from the free-energy reconstruction."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Free energy multiplied by inverse thermal energy beta."
+        },
+        "normalized_water_count_plotted": {
+          "unit": "dimensionless",
+          "description": "Occupancy divided by the largest occupancy in the free-energy table."
+        },
+        "normalized_beta_free_energy_plotted": {
+          "unit": "dimensionless",
+          "description": "beta_free_energy divided by the largest occupancy in the free-energy table."
+        }
+      }
+    },
+    {
+      "file": "location_02/CB431/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean occupancy before display smoothing."
+        },
+        "normalized_water_count_unsmoothed": {
+          "unit": "dimensionless",
+          "description": "Mean occupancy divided by its zero-bias value."
+        },
+        "normalized_water_count_plotted": {
+          "unit": "dimensionless",
+          "description": "Normalized occupancy after the original 9-point order-2 Savitzky-Golay smoothing."
+        }
+      }
+    },
+    {
+      "file": "location_02/CB433/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean occupancy from the free-energy reconstruction."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Free energy multiplied by inverse thermal energy beta."
+        },
+        "normalized_water_count_plotted": {
+          "unit": "dimensionless",
+          "description": "Occupancy divided by the largest occupancy in the free-energy table."
+        },
+        "normalized_beta_free_energy_plotted": {
+          "unit": "dimensionless",
+          "description": "beta_free_energy divided by the largest occupancy in the free-energy table."
+        }
+      }
+    },
+    {
+      "file": "location_02/CB433/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean occupancy before display smoothing."
+        },
+        "normalized_water_count_unsmoothed": {
+          "unit": "dimensionless",
+          "description": "Mean occupancy divided by its zero-bias value."
+        },
+        "normalized_water_count_plotted": {
+          "unit": "dimensionless",
+          "description": "Normalized occupancy after the original 9-point order-2 Savitzky-Golay smoothing."
+        }
+      }
+    },
+    {
+      "file": "location_02/CB434/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean occupancy from the free-energy reconstruction."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Free energy multiplied by inverse thermal energy beta."
+        },
+        "normalized_water_count_plotted": {
+          "unit": "dimensionless",
+          "description": "Occupancy divided by the largest occupancy in the free-energy table."
+        },
+        "normalized_beta_free_energy_plotted": {
+          "unit": "dimensionless",
+          "description": "beta_free_energy divided by the largest occupancy in the free-energy table."
+        }
+      }
+    },
+    {
+      "file": "location_02/CB434/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean occupancy before display smoothing."
+        },
+        "normalized_water_count_unsmoothed": {
+          "unit": "dimensionless",
+          "description": "Mean occupancy divided by its zero-bias value."
+        },
+        "normalized_water_count_plotted": {
+          "unit": "dimensionless",
+          "description": "Normalized occupancy after the original 9-point order-2 Savitzky-Golay smoothing."
+        }
+      }
+    },
+    {
+      "file": "location_02/CB441/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean occupancy from the free-energy reconstruction."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Free energy multiplied by inverse thermal energy beta."
+        },
+        "normalized_water_count_plotted": {
+          "unit": "dimensionless",
+          "description": "Occupancy divided by the largest occupancy in the free-energy table."
+        },
+        "normalized_beta_free_energy_plotted": {
+          "unit": "dimensionless",
+          "description": "beta_free_energy divided by the largest occupancy in the free-energy table."
+        }
+      }
+    },
+    {
+      "file": "location_02/CB441/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean occupancy before display smoothing."
+        },
+        "normalized_water_count_unsmoothed": {
+          "unit": "dimensionless",
+          "description": "Mean occupancy divided by its zero-bias value."
+        },
+        "normalized_water_count_plotted": {
+          "unit": "dimensionless",
+          "description": "Normalized occupancy after the original 9-point order-2 Savitzky-Golay smoothing."
+        }
+      }
+    },
+    {
+      "file": "location_02/CB442/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean occupancy from the free-energy reconstruction."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Free energy multiplied by inverse thermal energy beta."
+        },
+        "normalized_water_count_plotted": {
+          "unit": "dimensionless",
+          "description": "Occupancy divided by the largest occupancy in the free-energy table."
+        },
+        "normalized_beta_free_energy_plotted": {
+          "unit": "dimensionless",
+          "description": "beta_free_energy divided by the largest occupancy in the free-energy table."
+        }
+      }
+    },
+    {
+      "file": "location_02/CB442/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean occupancy before display smoothing."
+        },
+        "normalized_water_count_unsmoothed": {
+          "unit": "dimensionless",
+          "description": "Mean occupancy divided by its zero-bias value."
+        },
+        "normalized_water_count_plotted": {
+          "unit": "dimensionless",
+          "description": "Normalized occupancy after the original 9-point order-2 Savitzky-Golay smoothing."
+        }
+      }
+    },
+    {
+      "file": "location_02/Nuvia_cPrime/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean occupancy from the free-energy reconstruction."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Free energy multiplied by inverse thermal energy beta."
+        },
+        "normalized_water_count_plotted": {
+          "unit": "dimensionless",
+          "description": "Occupancy divided by the largest occupancy in the free-energy table."
+        },
+        "normalized_beta_free_energy_plotted": {
+          "unit": "dimensionless",
+          "description": "beta_free_energy divided by the largest occupancy in the free-energy table."
+        }
+      }
+    },
+    {
+      "file": "location_02/Nuvia_cPrime/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean occupancy before display smoothing."
+        },
+        "normalized_water_count_unsmoothed": {
+          "unit": "dimensionless",
+          "description": "Mean occupancy divided by its zero-bias value."
+        },
+        "normalized_water_count_plotted": {
+          "unit": "dimensionless",
+          "description": "Normalized occupancy after the original 9-point order-2 Savitzky-Golay smoothing."
+        }
+      }
+    },
+    {
+      "file": "location_03/CB431/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean occupancy from the free-energy reconstruction."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Free energy multiplied by inverse thermal energy beta."
+        },
+        "normalized_water_count_plotted": {
+          "unit": "dimensionless",
+          "description": "Occupancy divided by the largest occupancy in the free-energy table."
+        },
+        "normalized_beta_free_energy_plotted": {
+          "unit": "dimensionless",
+          "description": "beta_free_energy divided by the largest occupancy in the free-energy table."
+        }
+      }
+    },
+    {
+      "file": "location_03/CB431/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean occupancy before display smoothing."
+        },
+        "normalized_water_count_unsmoothed": {
+          "unit": "dimensionless",
+          "description": "Mean occupancy divided by its zero-bias value."
+        },
+        "normalized_water_count_plotted": {
+          "unit": "dimensionless",
+          "description": "Normalized occupancy after the original 9-point order-2 Savitzky-Golay smoothing."
+        }
+      }
+    },
+    {
+      "file": "location_03/CB433/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean occupancy from the free-energy reconstruction."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Free energy multiplied by inverse thermal energy beta."
+        },
+        "normalized_water_count_plotted": {
+          "unit": "dimensionless",
+          "description": "Occupancy divided by the largest occupancy in the free-energy table."
+        },
+        "normalized_beta_free_energy_plotted": {
+          "unit": "dimensionless",
+          "description": "beta_free_energy divided by the largest occupancy in the free-energy table."
+        }
+      }
+    },
+    {
+      "file": "location_03/CB433/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean occupancy before display smoothing."
+        },
+        "normalized_water_count_unsmoothed": {
+          "unit": "dimensionless",
+          "description": "Mean occupancy divided by its zero-bias value."
+        },
+        "normalized_water_count_plotted": {
+          "unit": "dimensionless",
+          "description": "Normalized occupancy after the original 9-point order-2 Savitzky-Golay smoothing."
+        }
+      }
+    },
+    {
+      "file": "location_03/CB434/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean occupancy from the free-energy reconstruction."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Free energy multiplied by inverse thermal energy beta."
+        },
+        "normalized_water_count_plotted": {
+          "unit": "dimensionless",
+          "description": "Occupancy divided by the largest occupancy in the free-energy table."
+        },
+        "normalized_beta_free_energy_plotted": {
+          "unit": "dimensionless",
+          "description": "beta_free_energy divided by the largest occupancy in the free-energy table."
+        }
+      }
+    },
+    {
+      "file": "location_03/CB434/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean occupancy before display smoothing."
+        },
+        "normalized_water_count_unsmoothed": {
+          "unit": "dimensionless",
+          "description": "Mean occupancy divided by its zero-bias value."
+        },
+        "normalized_water_count_plotted": {
+          "unit": "dimensionless",
+          "description": "Normalized occupancy after the original 9-point order-2 Savitzky-Golay smoothing."
+        }
+      }
+    },
+    {
+      "file": "location_03/CB441/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean occupancy from the free-energy reconstruction."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Free energy multiplied by inverse thermal energy beta."
+        },
+        "normalized_water_count_plotted": {
+          "unit": "dimensionless",
+          "description": "Occupancy divided by the largest occupancy in the free-energy table."
+        },
+        "normalized_beta_free_energy_plotted": {
+          "unit": "dimensionless",
+          "description": "beta_free_energy divided by the largest occupancy in the free-energy table."
+        }
+      }
+    },
+    {
+      "file": "location_03/CB441/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean occupancy before display smoothing."
+        },
+        "normalized_water_count_unsmoothed": {
+          "unit": "dimensionless",
+          "description": "Mean occupancy divided by its zero-bias value."
+        },
+        "normalized_water_count_plotted": {
+          "unit": "dimensionless",
+          "description": "Normalized occupancy after the original 9-point order-2 Savitzky-Golay smoothing."
+        }
+      }
+    },
+    {
+      "file": "location_03/CB442/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean occupancy from the free-energy reconstruction."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Free energy multiplied by inverse thermal energy beta."
+        },
+        "normalized_water_count_plotted": {
+          "unit": "dimensionless",
+          "description": "Occupancy divided by the largest occupancy in the free-energy table."
+        },
+        "normalized_beta_free_energy_plotted": {
+          "unit": "dimensionless",
+          "description": "beta_free_energy divided by the largest occupancy in the free-energy table."
+        }
+      }
+    },
+    {
+      "file": "location_03/CB442/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean occupancy before display smoothing."
+        },
+        "normalized_water_count_unsmoothed": {
+          "unit": "dimensionless",
+          "description": "Mean occupancy divided by its zero-bias value."
+        },
+        "normalized_water_count_plotted": {
+          "unit": "dimensionless",
+          "description": "Normalized occupancy after the original 9-point order-2 Savitzky-Golay smoothing."
+        }
+      }
+    },
+    {
+      "file": "location_03/Nuvia_cPrime/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean occupancy from the free-energy reconstruction."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Free energy multiplied by inverse thermal energy beta."
+        },
+        "normalized_water_count_plotted": {
+          "unit": "dimensionless",
+          "description": "Occupancy divided by the largest occupancy in the free-energy table."
+        },
+        "normalized_beta_free_energy_plotted": {
+          "unit": "dimensionless",
+          "description": "beta_free_energy divided by the largest occupancy in the free-energy table."
+        }
+      }
+    },
+    {
+      "file": "location_03/Nuvia_cPrime/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean occupancy before display smoothing."
+        },
+        "normalized_water_count_unsmoothed": {
+          "unit": "dimensionless",
+          "description": "Mean occupancy divided by its zero-bias value."
+        },
+        "normalized_water_count_plotted": {
+          "unit": "dimensionless",
+          "description": "Normalized occupancy after the original 9-point order-2 Savitzky-Golay smoothing."
+        }
+      }
+    }
+  ]
+}

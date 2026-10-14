@@ -1,0 +1,85 @@
+{
+  "figure": "11",
+  "title": "Water removal from chemical groups and ligand-free regions",
+  "ligand_order": [
+    "Nuvia cPrime"
+  ],
+  "files": [
+    {
+      "file": "Nuvia_cPrime/amide_occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean molecular water count in the region before smoothing."
+        },
+        "normalized_water_count_plotted": {
+          "unit": "dimensionless",
+          "description": "Dimensionless curve after Gaussian smoothing and division by the smoothed zero-bias count."
+        }
+      }
+    },
+    {
+      "file": "Nuvia_cPrime/carboxylate_occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean molecular water count in the region before smoothing."
+        },
+        "normalized_water_count_plotted": {
+          "unit": "dimensionless",
+          "description": "Dimensionless curve after Gaussian smoothing and division by the smoothed zero-bias count."
+        }
+      }
+    },
+    {
+      "file": "Nuvia_cPrime/ligand_free_region_occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean molecular water count in the region before smoothing."
+        },
+        "normalized_water_count_plotted": {
+          "unit": "dimensionless",
+          "description": "Dimensionless curve after Gaussian smoothing and division by the smoothed zero-bias count."
+        }
+      }
+    },
+    {
+      "file": "Nuvia_cPrime/phenyl_occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean molecular water count in the region before smoothing."
+        },
+        "normalized_water_count_plotted": {
+          "unit": "dimensionless",
+          "description": "Dimensionless curve after Gaussian smoothing and division by the smoothed zero-bias count."
+        }
+      }
+    }
+  ]
+}

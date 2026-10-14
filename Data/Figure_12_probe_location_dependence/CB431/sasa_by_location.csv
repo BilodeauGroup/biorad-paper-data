@@ -1,0 +1,4 @@
+probe_location,n_frames,charged_sasa_nm2,polar_sasa_nm2,hydrophobic_sasa_nm2
+1,10,5.3020,0.6327,1.6064
+2,10,5.2153,1.0151,0.7504
+3,10,3.8842,1.1392,2.3145

@@ -1,0 +1,878 @@
+{
+  "figure": "S04",
+  "title": "Water occupancy for cylindrical and cylindrical union of spheres probes",
+  "ligand_order": [
+    "CB431",
+    "Nuvia cPrime",
+    "CB433",
+    "CB441",
+    "CB434",
+    "CB442"
+  ],
+  "files": [
+    {
+      "file": "CB431/cylindrical/occupancy_summary.csv",
+      "rows": 70,
+      "data_level": "plotted_summary",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "normalized_water_count_mean": {
+          "unit": "dimensionless",
+          "description": "Mean of three smoothed, individually normalized replicate curves."
+        },
+        "normalized_water_count_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replicate curves; ddof=1."
+        },
+        "normalized_water_count_lower_sd": {
+          "unit": "dimensionless",
+          "description": "Lower edge of the plotted mean plus/minus one SD band."
+        },
+        "normalized_water_count_upper_sd": {
+          "unit": "dimensionless",
+          "description": "Upper edge of the plotted mean plus/minus one SD band."
+        }
+      }
+    },
+    {
+      "file": "CB431/cylindrical/replicate_01/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Time-averaged occupancy before normalization and display smoothing."
+        }
+      }
+    },
+    {
+      "file": "CB431/cylindrical/replicate_02/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Time-averaged occupancy before normalization and display smoothing."
+        }
+      }
+    },
+    {
+      "file": "CB431/cylindrical/replicate_03/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Time-averaged occupancy before normalization and display smoothing."
+        }
+      }
+    },
+    {
+      "file": "CB431/cylindrical_union_of_spheres/occupancy_summary.csv",
+      "rows": 70,
+      "data_level": "plotted_summary",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "normalized_water_count_mean": {
+          "unit": "dimensionless",
+          "description": "Mean of three smoothed, individually normalized replicate curves."
+        },
+        "normalized_water_count_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replicate curves; ddof=1."
+        },
+        "normalized_water_count_lower_sd": {
+          "unit": "dimensionless",
+          "description": "Lower edge of the plotted mean plus/minus one SD band."
+        },
+        "normalized_water_count_upper_sd": {
+          "unit": "dimensionless",
+          "description": "Upper edge of the plotted mean plus/minus one SD band."
+        }
+      }
+    },
+    {
+      "file": "CB431/cylindrical_union_of_spheres/replicate_01/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Time-averaged occupancy before normalization and display smoothing."
+        }
+      }
+    },
+    {
+      "file": "CB431/cylindrical_union_of_spheres/replicate_02/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Time-averaged occupancy before normalization and display smoothing."
+        }
+      }
+    },
+    {
+      "file": "CB431/cylindrical_union_of_spheres/replicate_03/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Time-averaged occupancy before normalization and display smoothing."
+        }
+      }
+    },
+    {
+      "file": "CB433/cylindrical/occupancy_summary.csv",
+      "rows": 70,
+      "data_level": "plotted_summary",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "normalized_water_count_mean": {
+          "unit": "dimensionless",
+          "description": "Mean of three smoothed, individually normalized replicate curves."
+        },
+        "normalized_water_count_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replicate curves; ddof=1."
+        },
+        "normalized_water_count_lower_sd": {
+          "unit": "dimensionless",
+          "description": "Lower edge of the plotted mean plus/minus one SD band."
+        },
+        "normalized_water_count_upper_sd": {
+          "unit": "dimensionless",
+          "description": "Upper edge of the plotted mean plus/minus one SD band."
+        }
+      }
+    },
+    {
+      "file": "CB433/cylindrical/replicate_01/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Time-averaged occupancy before normalization and display smoothing."
+        }
+      }
+    },
+    {
+      "file": "CB433/cylindrical/replicate_02/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Time-averaged occupancy before normalization and display smoothing."
+        }
+      }
+    },
+    {
+      "file": "CB433/cylindrical/replicate_03/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Time-averaged occupancy before normalization and display smoothing."
+        }
+      }
+    },
+    {
+      "file": "CB433/cylindrical_union_of_spheres/occupancy_summary.csv",
+      "rows": 70,
+      "data_level": "plotted_summary",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "normalized_water_count_mean": {
+          "unit": "dimensionless",
+          "description": "Mean of three smoothed, individually normalized replicate curves."
+        },
+        "normalized_water_count_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replicate curves; ddof=1."
+        },
+        "normalized_water_count_lower_sd": {
+          "unit": "dimensionless",
+          "description": "Lower edge of the plotted mean plus/minus one SD band."
+        },
+        "normalized_water_count_upper_sd": {
+          "unit": "dimensionless",
+          "description": "Upper edge of the plotted mean plus/minus one SD band."
+        }
+      }
+    },
+    {
+      "file": "CB433/cylindrical_union_of_spheres/replicate_01/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Time-averaged occupancy before normalization and display smoothing."
+        }
+      }
+    },
+    {
+      "file": "CB433/cylindrical_union_of_spheres/replicate_02/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Time-averaged occupancy before normalization and display smoothing."
+        }
+      }
+    },
+    {
+      "file": "CB433/cylindrical_union_of_spheres/replicate_03/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Time-averaged occupancy before normalization and display smoothing."
+        }
+      }
+    },
+    {
+      "file": "CB434/cylindrical/occupancy_summary.csv",
+      "rows": 70,
+      "data_level": "plotted_summary",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "normalized_water_count_mean": {
+          "unit": "dimensionless",
+          "description": "Mean of three smoothed, individually normalized replicate curves."
+        },
+        "normalized_water_count_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replicate curves; ddof=1."
+        },
+        "normalized_water_count_lower_sd": {
+          "unit": "dimensionless",
+          "description": "Lower edge of the plotted mean plus/minus one SD band."
+        },
+        "normalized_water_count_upper_sd": {
+          "unit": "dimensionless",
+          "description": "Upper edge of the plotted mean plus/minus one SD band."
+        }
+      }
+    },
+    {
+      "file": "CB434/cylindrical/replicate_01/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Time-averaged occupancy before normalization and display smoothing."
+        }
+      }
+    },
+    {
+      "file": "CB434/cylindrical/replicate_02/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Time-averaged occupancy before normalization and display smoothing."
+        }
+      }
+    },
+    {
+      "file": "CB434/cylindrical/replicate_03/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Time-averaged occupancy before normalization and display smoothing."
+        }
+      }
+    },
+    {
+      "file": "CB434/cylindrical_union_of_spheres/occupancy_summary.csv",
+      "rows": 70,
+      "data_level": "plotted_summary",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "normalized_water_count_mean": {
+          "unit": "dimensionless",
+          "description": "Mean of three smoothed, individually normalized replicate curves."
+        },
+        "normalized_water_count_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replicate curves; ddof=1."
+        },
+        "normalized_water_count_lower_sd": {
+          "unit": "dimensionless",
+          "description": "Lower edge of the plotted mean plus/minus one SD band."
+        },
+        "normalized_water_count_upper_sd": {
+          "unit": "dimensionless",
+          "description": "Upper edge of the plotted mean plus/minus one SD band."
+        }
+      }
+    },
+    {
+      "file": "CB434/cylindrical_union_of_spheres/replicate_01/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Time-averaged occupancy before normalization and display smoothing."
+        }
+      }
+    },
+    {
+      "file": "CB434/cylindrical_union_of_spheres/replicate_02/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Time-averaged occupancy before normalization and display smoothing."
+        }
+      }
+    },
+    {
+      "file": "CB434/cylindrical_union_of_spheres/replicate_03/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Time-averaged occupancy before normalization and display smoothing."
+        }
+      }
+    },
+    {
+      "file": "CB441/cylindrical/occupancy_summary.csv",
+      "rows": 70,
+      "data_level": "plotted_summary",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "normalized_water_count_mean": {
+          "unit": "dimensionless",
+          "description": "Mean of three smoothed, individually normalized replicate curves."
+        },
+        "normalized_water_count_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replicate curves; ddof=1."
+        },
+        "normalized_water_count_lower_sd": {
+          "unit": "dimensionless",
+          "description": "Lower edge of the plotted mean plus/minus one SD band."
+        },
+        "normalized_water_count_upper_sd": {
+          "unit": "dimensionless",
+          "description": "Upper edge of the plotted mean plus/minus one SD band."
+        }
+      }
+    },
+    {
+      "file": "CB441/cylindrical/replicate_01/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Time-averaged occupancy before normalization and display smoothing."
+        }
+      }
+    },
+    {
+      "file": "CB441/cylindrical/replicate_02/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Time-averaged occupancy before normalization and display smoothing."
+        }
+      }
+    },
+    {
+      "file": "CB441/cylindrical/replicate_03/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Time-averaged occupancy before normalization and display smoothing."
+        }
+      }
+    },
+    {
+      "file": "CB441/cylindrical_union_of_spheres/occupancy_summary.csv",
+      "rows": 70,
+      "data_level": "plotted_summary",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "normalized_water_count_mean": {
+          "unit": "dimensionless",
+          "description": "Mean of three smoothed, individually normalized replicate curves."
+        },
+        "normalized_water_count_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replicate curves; ddof=1."
+        },
+        "normalized_water_count_lower_sd": {
+          "unit": "dimensionless",
+          "description": "Lower edge of the plotted mean plus/minus one SD band."
+        },
+        "normalized_water_count_upper_sd": {
+          "unit": "dimensionless",
+          "description": "Upper edge of the plotted mean plus/minus one SD band."
+        }
+      }
+    },
+    {
+      "file": "CB441/cylindrical_union_of_spheres/replicate_01/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Time-averaged occupancy before normalization and display smoothing."
+        }
+      }
+    },
+    {
+      "file": "CB441/cylindrical_union_of_spheres/replicate_02/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Time-averaged occupancy before normalization and display smoothing."
+        }
+      }
+    },
+    {
+      "file": "CB441/cylindrical_union_of_spheres/replicate_03/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Time-averaged occupancy before normalization and display smoothing."
+        }
+      }
+    },
+    {
+      "file": "CB442/cylindrical/occupancy_summary.csv",
+      "rows": 70,
+      "data_level": "plotted_summary",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "normalized_water_count_mean": {
+          "unit": "dimensionless",
+          "description": "Mean of three smoothed, individually normalized replicate curves."
+        },
+        "normalized_water_count_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replicate curves; ddof=1."
+        },
+        "normalized_water_count_lower_sd": {
+          "unit": "dimensionless",
+          "description": "Lower edge of the plotted mean plus/minus one SD band."
+        },
+        "normalized_water_count_upper_sd": {
+          "unit": "dimensionless",
+          "description": "Upper edge of the plotted mean plus/minus one SD band."
+        }
+      }
+    },
+    {
+      "file": "CB442/cylindrical/replicate_01/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Time-averaged occupancy before normalization and display smoothing."
+        }
+      }
+    },
+    {
+      "file": "CB442/cylindrical/replicate_02/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Time-averaged occupancy before normalization and display smoothing."
+        }
+      }
+    },
+    {
+      "file": "CB442/cylindrical/replicate_03/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Time-averaged occupancy before normalization and display smoothing."
+        }
+      }
+    },
+    {
+      "file": "CB442/cylindrical_union_of_spheres/occupancy_summary.csv",
+      "rows": 70,
+      "data_level": "plotted_summary",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "normalized_water_count_mean": {
+          "unit": "dimensionless",
+          "description": "Mean of three smoothed, individually normalized replicate curves."
+        },
+        "normalized_water_count_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replicate curves; ddof=1."
+        },
+        "normalized_water_count_lower_sd": {
+          "unit": "dimensionless",
+          "description": "Lower edge of the plotted mean plus/minus one SD band."
+        },
+        "normalized_water_count_upper_sd": {
+          "unit": "dimensionless",
+          "description": "Upper edge of the plotted mean plus/minus one SD band."
+        }
+      }
+    },
+    {
+      "file": "CB442/cylindrical_union_of_spheres/replicate_01/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Time-averaged occupancy before normalization and display smoothing."
+        }
+      }
+    },
+    {
+      "file": "CB442/cylindrical_union_of_spheres/replicate_02/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Time-averaged occupancy before normalization and display smoothing."
+        }
+      }
+    },
+    {
+      "file": "CB442/cylindrical_union_of_spheres/replicate_03/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Time-averaged occupancy before normalization and display smoothing."
+        }
+      }
+    },
+    {
+      "file": "Nuvia_cPrime/cylindrical/occupancy_summary.csv",
+      "rows": 70,
+      "data_level": "plotted_summary",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "normalized_water_count_mean": {
+          "unit": "dimensionless",
+          "description": "Mean of three smoothed, individually normalized replicate curves."
+        },
+        "normalized_water_count_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replicate curves; ddof=1."
+        },
+        "normalized_water_count_lower_sd": {
+          "unit": "dimensionless",
+          "description": "Lower edge of the plotted mean plus/minus one SD band."
+        },
+        "normalized_water_count_upper_sd": {
+          "unit": "dimensionless",
+          "description": "Upper edge of the plotted mean plus/minus one SD band."
+        }
+      }
+    },
+    {
+      "file": "Nuvia_cPrime/cylindrical/replicate_01/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Time-averaged occupancy before normalization and display smoothing."
+        }
+      }
+    },
+    {
+      "file": "Nuvia_cPrime/cylindrical/replicate_02/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Time-averaged occupancy before normalization and display smoothing."
+        }
+      }
+    },
+    {
+      "file": "Nuvia_cPrime/cylindrical/replicate_03/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Time-averaged occupancy before normalization and display smoothing."
+        }
+      }
+    },
+    {
+      "file": "Nuvia_cPrime/cylindrical_union_of_spheres/occupancy_summary.csv",
+      "rows": 70,
+      "data_level": "plotted_summary",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "normalized_water_count_mean": {
+          "unit": "dimensionless",
+          "description": "Mean of three smoothed, individually normalized replicate curves."
+        },
+        "normalized_water_count_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replicate curves; ddof=1."
+        },
+        "normalized_water_count_lower_sd": {
+          "unit": "dimensionless",
+          "description": "Lower edge of the plotted mean plus/minus one SD band."
+        },
+        "normalized_water_count_upper_sd": {
+          "unit": "dimensionless",
+          "description": "Upper edge of the plotted mean plus/minus one SD band."
+        }
+      }
+    },
+    {
+      "file": "Nuvia_cPrime/cylindrical_union_of_spheres/replicate_01/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Time-averaged occupancy before normalization and display smoothing."
+        }
+      }
+    },
+    {
+      "file": "Nuvia_cPrime/cylindrical_union_of_spheres/replicate_02/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Time-averaged occupancy before normalization and display smoothing."
+        }
+      }
+    },
+    {
+      "file": "Nuvia_cPrime/cylindrical_union_of_spheres/replicate_03/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "INDUS bias strength beta times phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Time-averaged occupancy before normalization and display smoothing."
+        }
+      }
+    }
+  ]
+}

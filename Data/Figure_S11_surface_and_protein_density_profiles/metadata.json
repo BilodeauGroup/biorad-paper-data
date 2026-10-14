@@ -1,0 +1,68 @@
+{
+  "figure": "S11",
+  "title": "Surface and protein density profiles in the bound state",
+  "ligand_order": [
+    "Nuvia cPrime",
+    "CB434",
+    "CB442"
+  ],
+  "files": [
+    {
+      "file": "CB434.csv",
+      "rows": 400,
+      "data_level": "plotted",
+      "columns": {
+        "z_angstrom": {
+          "unit": "angstrom",
+          "description": "Bin centre along the surface-normal direction."
+        },
+        "surface_density_atoms_per_angstrom3": {
+          "unit": "atoms/angstrom^3",
+          "description": "Surface heavy-atom density within a radius-20 angstrom circle, with original 5-bin smoothing."
+        },
+        "protein_density_atoms_per_angstrom3": {
+          "unit": "atoms/angstrom^3",
+          "description": "Protein heavy-atom density normalized over the full simulation-box cross-section."
+        }
+      }
+    },
+    {
+      "file": "CB442.csv",
+      "rows": 400,
+      "data_level": "plotted",
+      "columns": {
+        "z_angstrom": {
+          "unit": "angstrom",
+          "description": "Bin centre along the surface-normal direction."
+        },
+        "surface_density_atoms_per_angstrom3": {
+          "unit": "atoms/angstrom^3",
+          "description": "Surface heavy-atom density within a radius-20 angstrom circle, with original 5-bin smoothing."
+        },
+        "protein_density_atoms_per_angstrom3": {
+          "unit": "atoms/angstrom^3",
+          "description": "Protein heavy-atom density normalized over the full simulation-box cross-section."
+        }
+      }
+    },
+    {
+      "file": "Nuvia_cPrime.csv",
+      "rows": 400,
+      "data_level": "plotted",
+      "columns": {
+        "z_angstrom": {
+          "unit": "angstrom",
+          "description": "Bin centre along the surface-normal direction."
+        },
+        "surface_density_atoms_per_angstrom3": {
+          "unit": "atoms/angstrom^3",
+          "description": "Surface heavy-atom density within a radius-20 angstrom circle, with original 5-bin smoothing."
+        },
+        "protein_density_atoms_per_angstrom3": {
+          "unit": "atoms/angstrom^3",
+          "description": "Protein heavy-atom density normalized over the full simulation-box cross-section."
+        }
+      }
+    }
+  ]
+}

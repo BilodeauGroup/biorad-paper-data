@@ -1,0 +1,19 @@
+ligand,chemical_category,mean_sasa_angstrom2,mean_sasa_nm2
+CB431,charged,756.8189,7.568189
+CB431,polar,323.8965,3.238965
+CB431,hydrophobic,363.7616,3.637616
+Nuvia cPrime,charged,554.0058,5.540058
+Nuvia cPrime,polar,326.6322,3.266322
+Nuvia cPrime,hydrophobic,267.9597,2.679597
+CB433,charged,411.1199,4.111199
+CB433,polar,313.6982,3.136982
+CB433,hydrophobic,497.7678,4.977678
+CB441,charged,317.6695,3.176695
+CB441,polar,311.0265,3.110265
+CB441,hydrophobic,556.3692,5.563692
+CB434,charged,504.7329,5.047329
+CB434,polar,291.0126,2.910126
+CB434,hydrophobic,733.1771,7.331771
+CB442,charged,296.7200,2.9672
+CB442,polar,269.5761,2.695761
+CB442,hydrophobic,601.2845,6.012845

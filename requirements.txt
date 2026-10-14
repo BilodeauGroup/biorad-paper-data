@@ -1,0 +1,4 @@
+# Optional dependencies for the Figure 7 and Figure S9 plotting scripts
+numpy
+scipy
+matplotlib

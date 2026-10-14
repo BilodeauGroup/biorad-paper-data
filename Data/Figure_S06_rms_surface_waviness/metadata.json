@@ -1,0 +1,29 @@
+{
+  "figure": "S06",
+  "title": "Root mean square waviness",
+  "ligand_order": [
+    "CB431",
+    "Nuvia cPrime",
+    "CB433",
+    "CB441",
+    "CB434",
+    "CB442"
+  ],
+  "files": [
+    {
+      "file": "rms_waviness.csv",
+      "rows": 6,
+      "data_level": "plotted",
+      "columns": {
+        "ligand": {
+          "unit": "identifier",
+          "description": "Ligand-functionalized surface."
+        },
+        "rms_waviness_angstrom": {
+          "unit": "angstrom",
+          "description": "Root mean square waviness Wq on the 0.15 angstrom analysis grid."
+        }
+      }
+    }
+  ]
+}

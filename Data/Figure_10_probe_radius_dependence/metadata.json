@@ -1,0 +1,3758 @@
+{
+  "figure": "10",
+  "title": "Effect of cylinder radius on water occupancy and free energy",
+  "ligand_order": [
+    "CB431",
+    "Nuvia cPrime",
+    "CB433",
+    "CB441",
+    "CB434",
+    "CB442"
+  ],
+  "files": [
+    {
+      "file": "radius_06_angstrom/CB431/free_energy_summary.csv",
+      "rows": 1001,
+      "data_level": "plotted_summary",
+      "columns": {
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Dimensionless horizontal coordinate. Normalized water count is <N>/N0."
+        },
+        "normalized_beta_free_energy_mean": {
+          "unit": "dimensionless",
+          "description": "Dimensionless replica mean as drawn in the figure."
+        },
+        "normalized_beta_free_energy_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replica curves, ddof=1; blank where the source plot withholds SD."
+        },
+        "display_interpolation": {
+          "unit": "boolean (0 or 1)",
+          "description": "1 where an isolated nonfinite source estimate affects the smoothed display curve;0 otherwise."
+        },
+        "n_replicates": {
+          "unit": "count",
+          "description": "Number of simulation replicas."
+        }
+      }
+    },
+    {
+      "file": "radius_06_angstrom/CB431/occupancy_summary.csv",
+      "rows": 1001,
+      "data_level": "plotted_summary",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless horizontal coordinate. Normalized water count is <N>/N0."
+        },
+        "normalized_water_count_mean": {
+          "unit": "dimensionless",
+          "description": "Dimensionless replica mean as drawn in the figure."
+        },
+        "normalized_water_count_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replica curves, ddof=1; blank where the source plot withholds SD."
+        },
+        "display_interpolation": {
+          "unit": "boolean (0 or 1)",
+          "description": "1 where an isolated nonfinite source estimate affects the smoothed display curve;0 otherwise."
+        },
+        "n_replicates": {
+          "unit": "count",
+          "description": "Number of simulation replicas."
+        }
+      }
+    },
+    {
+      "file": "radius_06_angstrom/CB431/replicate_01/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_06_angstrom/CB431/replicate_01/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_06_angstrom/CB431/replicate_02/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_06_angstrom/CB431/replicate_02/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_06_angstrom/CB431/replicate_03/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_06_angstrom/CB431/replicate_03/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_06_angstrom/CB433/free_energy_summary.csv",
+      "rows": 1001,
+      "data_level": "plotted_summary",
+      "columns": {
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Dimensionless horizontal coordinate. Normalized water count is <N>/N0."
+        },
+        "normalized_beta_free_energy_mean": {
+          "unit": "dimensionless",
+          "description": "Dimensionless replica mean as drawn in the figure."
+        },
+        "normalized_beta_free_energy_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replica curves, ddof=1; blank where the source plot withholds SD."
+        },
+        "display_interpolation": {
+          "unit": "boolean (0 or 1)",
+          "description": "1 where an isolated nonfinite source estimate affects the smoothed display curve;0 otherwise."
+        },
+        "n_replicates": {
+          "unit": "count",
+          "description": "Number of simulation replicas."
+        }
+      }
+    },
+    {
+      "file": "radius_06_angstrom/CB433/occupancy_summary.csv",
+      "rows": 1001,
+      "data_level": "plotted_summary",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless horizontal coordinate. Normalized water count is <N>/N0."
+        },
+        "normalized_water_count_mean": {
+          "unit": "dimensionless",
+          "description": "Dimensionless replica mean as drawn in the figure."
+        },
+        "normalized_water_count_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replica curves, ddof=1; blank where the source plot withholds SD."
+        },
+        "display_interpolation": {
+          "unit": "boolean (0 or 1)",
+          "description": "1 where an isolated nonfinite source estimate affects the smoothed display curve;0 otherwise."
+        },
+        "n_replicates": {
+          "unit": "count",
+          "description": "Number of simulation replicas."
+        }
+      }
+    },
+    {
+      "file": "radius_06_angstrom/CB433/replicate_01/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_06_angstrom/CB433/replicate_01/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_06_angstrom/CB433/replicate_02/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_06_angstrom/CB433/replicate_02/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_06_angstrom/CB433/replicate_03/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_06_angstrom/CB433/replicate_03/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_06_angstrom/CB434/free_energy_summary.csv",
+      "rows": 1001,
+      "data_level": "plotted_summary",
+      "columns": {
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Dimensionless horizontal coordinate. Normalized water count is <N>/N0."
+        },
+        "normalized_beta_free_energy_mean": {
+          "unit": "dimensionless",
+          "description": "Dimensionless replica mean as drawn in the figure."
+        },
+        "normalized_beta_free_energy_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replica curves, ddof=1; blank where the source plot withholds SD."
+        },
+        "display_interpolation": {
+          "unit": "boolean (0 or 1)",
+          "description": "1 where an isolated nonfinite source estimate affects the smoothed display curve;0 otherwise."
+        },
+        "n_replicates": {
+          "unit": "count",
+          "description": "Number of simulation replicas."
+        }
+      }
+    },
+    {
+      "file": "radius_06_angstrom/CB434/occupancy_summary.csv",
+      "rows": 1001,
+      "data_level": "plotted_summary",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless horizontal coordinate. Normalized water count is <N>/N0."
+        },
+        "normalized_water_count_mean": {
+          "unit": "dimensionless",
+          "description": "Dimensionless replica mean as drawn in the figure."
+        },
+        "normalized_water_count_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replica curves, ddof=1; blank where the source plot withholds SD."
+        },
+        "display_interpolation": {
+          "unit": "boolean (0 or 1)",
+          "description": "1 where an isolated nonfinite source estimate affects the smoothed display curve;0 otherwise."
+        },
+        "n_replicates": {
+          "unit": "count",
+          "description": "Number of simulation replicas."
+        }
+      }
+    },
+    {
+      "file": "radius_06_angstrom/CB434/replicate_01/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_06_angstrom/CB434/replicate_01/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_06_angstrom/CB434/replicate_02/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_06_angstrom/CB434/replicate_02/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_06_angstrom/CB434/replicate_03/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_06_angstrom/CB434/replicate_03/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_06_angstrom/CB441/free_energy_summary.csv",
+      "rows": 1001,
+      "data_level": "plotted_summary",
+      "columns": {
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Dimensionless horizontal coordinate. Normalized water count is <N>/N0."
+        },
+        "normalized_beta_free_energy_mean": {
+          "unit": "dimensionless",
+          "description": "Dimensionless replica mean as drawn in the figure."
+        },
+        "normalized_beta_free_energy_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replica curves, ddof=1; blank where the source plot withholds SD."
+        },
+        "display_interpolation": {
+          "unit": "boolean (0 or 1)",
+          "description": "1 where an isolated nonfinite source estimate affects the smoothed display curve;0 otherwise."
+        },
+        "n_replicates": {
+          "unit": "count",
+          "description": "Number of simulation replicas."
+        }
+      }
+    },
+    {
+      "file": "radius_06_angstrom/CB441/occupancy_summary.csv",
+      "rows": 1001,
+      "data_level": "plotted_summary",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless horizontal coordinate. Normalized water count is <N>/N0."
+        },
+        "normalized_water_count_mean": {
+          "unit": "dimensionless",
+          "description": "Dimensionless replica mean as drawn in the figure."
+        },
+        "normalized_water_count_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replica curves, ddof=1; blank where the source plot withholds SD."
+        },
+        "display_interpolation": {
+          "unit": "boolean (0 or 1)",
+          "description": "1 where an isolated nonfinite source estimate affects the smoothed display curve;0 otherwise."
+        },
+        "n_replicates": {
+          "unit": "count",
+          "description": "Number of simulation replicas."
+        }
+      }
+    },
+    {
+      "file": "radius_06_angstrom/CB441/replicate_01/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_06_angstrom/CB441/replicate_01/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_06_angstrom/CB441/replicate_02/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_06_angstrom/CB441/replicate_02/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_06_angstrom/CB441/replicate_03/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_06_angstrom/CB441/replicate_03/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_06_angstrom/CB442/free_energy_summary.csv",
+      "rows": 1001,
+      "data_level": "plotted_summary",
+      "columns": {
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Dimensionless horizontal coordinate. Normalized water count is <N>/N0."
+        },
+        "normalized_beta_free_energy_mean": {
+          "unit": "dimensionless",
+          "description": "Dimensionless replica mean as drawn in the figure."
+        },
+        "normalized_beta_free_energy_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replica curves, ddof=1; blank where the source plot withholds SD."
+        },
+        "display_interpolation": {
+          "unit": "boolean (0 or 1)",
+          "description": "1 where an isolated nonfinite source estimate affects the smoothed display curve;0 otherwise."
+        },
+        "n_replicates": {
+          "unit": "count",
+          "description": "Number of simulation replicas."
+        }
+      }
+    },
+    {
+      "file": "radius_06_angstrom/CB442/occupancy_summary.csv",
+      "rows": 1001,
+      "data_level": "plotted_summary",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless horizontal coordinate. Normalized water count is <N>/N0."
+        },
+        "normalized_water_count_mean": {
+          "unit": "dimensionless",
+          "description": "Dimensionless replica mean as drawn in the figure."
+        },
+        "normalized_water_count_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replica curves, ddof=1; blank where the source plot withholds SD."
+        },
+        "display_interpolation": {
+          "unit": "boolean (0 or 1)",
+          "description": "1 where an isolated nonfinite source estimate affects the smoothed display curve;0 otherwise."
+        },
+        "n_replicates": {
+          "unit": "count",
+          "description": "Number of simulation replicas."
+        }
+      }
+    },
+    {
+      "file": "radius_06_angstrom/CB442/replicate_01/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_06_angstrom/CB442/replicate_01/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_06_angstrom/CB442/replicate_02/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_06_angstrom/CB442/replicate_02/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_06_angstrom/CB442/replicate_03/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_06_angstrom/CB442/replicate_03/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_06_angstrom/Nuvia_cPrime/free_energy_summary.csv",
+      "rows": 1001,
+      "data_level": "plotted_summary",
+      "columns": {
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Dimensionless horizontal coordinate. Normalized water count is <N>/N0."
+        },
+        "normalized_beta_free_energy_mean": {
+          "unit": "dimensionless",
+          "description": "Dimensionless replica mean as drawn in the figure."
+        },
+        "normalized_beta_free_energy_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replica curves, ddof=1; blank where the source plot withholds SD."
+        },
+        "display_interpolation": {
+          "unit": "boolean (0 or 1)",
+          "description": "1 where an isolated nonfinite source estimate affects the smoothed display curve;0 otherwise."
+        },
+        "n_replicates": {
+          "unit": "count",
+          "description": "Number of simulation replicas."
+        }
+      }
+    },
+    {
+      "file": "radius_06_angstrom/Nuvia_cPrime/occupancy_summary.csv",
+      "rows": 1001,
+      "data_level": "plotted_summary",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless horizontal coordinate. Normalized water count is <N>/N0."
+        },
+        "normalized_water_count_mean": {
+          "unit": "dimensionless",
+          "description": "Dimensionless replica mean as drawn in the figure."
+        },
+        "normalized_water_count_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replica curves, ddof=1; blank where the source plot withholds SD."
+        },
+        "display_interpolation": {
+          "unit": "boolean (0 or 1)",
+          "description": "1 where an isolated nonfinite source estimate affects the smoothed display curve;0 otherwise."
+        },
+        "n_replicates": {
+          "unit": "count",
+          "description": "Number of simulation replicas."
+        }
+      }
+    },
+    {
+      "file": "radius_06_angstrom/Nuvia_cPrime/replicate_01/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_06_angstrom/Nuvia_cPrime/replicate_01/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_06_angstrom/Nuvia_cPrime/replicate_02/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_06_angstrom/Nuvia_cPrime/replicate_02/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_06_angstrom/Nuvia_cPrime/replicate_03/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_06_angstrom/Nuvia_cPrime/replicate_03/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_08_angstrom/CB431/free_energy_summary.csv",
+      "rows": 70,
+      "data_level": "plotted_summary",
+      "columns": {
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Dimensionless horizontal coordinate. Normalized water count is <N>/N0."
+        },
+        "normalized_beta_free_energy_mean": {
+          "unit": "dimensionless",
+          "description": "Dimensionless replica mean as drawn in the figure."
+        },
+        "normalized_beta_free_energy_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replica curves, ddof=1; blank where the source plot withholds SD."
+        },
+        "display_interpolation": {
+          "unit": "boolean (0 or 1)",
+          "description": "1 where an isolated nonfinite source estimate affects the smoothed display curve;0 otherwise."
+        },
+        "n_replicates": {
+          "unit": "count",
+          "description": "Number of simulation replicas."
+        }
+      }
+    },
+    {
+      "file": "radius_08_angstrom/CB431/occupancy_summary.csv",
+      "rows": 70,
+      "data_level": "plotted_summary",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless horizontal coordinate. Normalized water count is <N>/N0."
+        },
+        "normalized_water_count_mean": {
+          "unit": "dimensionless",
+          "description": "Dimensionless replica mean as drawn in the figure."
+        },
+        "normalized_water_count_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replica curves, ddof=1; blank where the source plot withholds SD."
+        },
+        "display_interpolation": {
+          "unit": "boolean (0 or 1)",
+          "description": "1 where an isolated nonfinite source estimate affects the smoothed display curve;0 otherwise."
+        },
+        "n_replicates": {
+          "unit": "count",
+          "description": "Number of simulation replicas."
+        }
+      }
+    },
+    {
+      "file": "radius_08_angstrom/CB431/replicate_01/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_08_angstrom/CB431/replicate_01/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_08_angstrom/CB431/replicate_02/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_08_angstrom/CB431/replicate_02/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_08_angstrom/CB431/replicate_03/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_08_angstrom/CB431/replicate_03/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_08_angstrom/CB433/free_energy_summary.csv",
+      "rows": 67,
+      "data_level": "plotted_summary",
+      "columns": {
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Dimensionless horizontal coordinate. Normalized water count is <N>/N0."
+        },
+        "normalized_beta_free_energy_mean": {
+          "unit": "dimensionless",
+          "description": "Dimensionless replica mean as drawn in the figure."
+        },
+        "normalized_beta_free_energy_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replica curves, ddof=1; blank where the source plot withholds SD."
+        },
+        "display_interpolation": {
+          "unit": "boolean (0 or 1)",
+          "description": "1 where an isolated nonfinite source estimate affects the smoothed display curve;0 otherwise."
+        },
+        "n_replicates": {
+          "unit": "count",
+          "description": "Number of simulation replicas."
+        }
+      }
+    },
+    {
+      "file": "radius_08_angstrom/CB433/occupancy_summary.csv",
+      "rows": 70,
+      "data_level": "plotted_summary",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless horizontal coordinate. Normalized water count is <N>/N0."
+        },
+        "normalized_water_count_mean": {
+          "unit": "dimensionless",
+          "description": "Dimensionless replica mean as drawn in the figure."
+        },
+        "normalized_water_count_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replica curves, ddof=1; blank where the source plot withholds SD."
+        },
+        "display_interpolation": {
+          "unit": "boolean (0 or 1)",
+          "description": "1 where an isolated nonfinite source estimate affects the smoothed display curve;0 otherwise."
+        },
+        "n_replicates": {
+          "unit": "count",
+          "description": "Number of simulation replicas."
+        }
+      }
+    },
+    {
+      "file": "radius_08_angstrom/CB433/replicate_01/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_08_angstrom/CB433/replicate_01/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_08_angstrom/CB433/replicate_02/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_08_angstrom/CB433/replicate_02/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_08_angstrom/CB433/replicate_03/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_08_angstrom/CB433/replicate_03/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_08_angstrom/CB434/free_energy_summary.csv",
+      "rows": 69,
+      "data_level": "plotted_summary",
+      "columns": {
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Dimensionless horizontal coordinate. Normalized water count is <N>/N0."
+        },
+        "normalized_beta_free_energy_mean": {
+          "unit": "dimensionless",
+          "description": "Dimensionless replica mean as drawn in the figure."
+        },
+        "normalized_beta_free_energy_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replica curves, ddof=1; blank where the source plot withholds SD."
+        },
+        "display_interpolation": {
+          "unit": "boolean (0 or 1)",
+          "description": "1 where an isolated nonfinite source estimate affects the smoothed display curve;0 otherwise."
+        },
+        "n_replicates": {
+          "unit": "count",
+          "description": "Number of simulation replicas."
+        }
+      }
+    },
+    {
+      "file": "radius_08_angstrom/CB434/occupancy_summary.csv",
+      "rows": 70,
+      "data_level": "plotted_summary",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless horizontal coordinate. Normalized water count is <N>/N0."
+        },
+        "normalized_water_count_mean": {
+          "unit": "dimensionless",
+          "description": "Dimensionless replica mean as drawn in the figure."
+        },
+        "normalized_water_count_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replica curves, ddof=1; blank where the source plot withholds SD."
+        },
+        "display_interpolation": {
+          "unit": "boolean (0 or 1)",
+          "description": "1 where an isolated nonfinite source estimate affects the smoothed display curve;0 otherwise."
+        },
+        "n_replicates": {
+          "unit": "count",
+          "description": "Number of simulation replicas."
+        }
+      }
+    },
+    {
+      "file": "radius_08_angstrom/CB434/replicate_01/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_08_angstrom/CB434/replicate_01/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_08_angstrom/CB434/replicate_02/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_08_angstrom/CB434/replicate_02/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_08_angstrom/CB434/replicate_03/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_08_angstrom/CB434/replicate_03/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_08_angstrom/CB441/free_energy_summary.csv",
+      "rows": 69,
+      "data_level": "plotted_summary",
+      "columns": {
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Dimensionless horizontal coordinate. Normalized water count is <N>/N0."
+        },
+        "normalized_beta_free_energy_mean": {
+          "unit": "dimensionless",
+          "description": "Dimensionless replica mean as drawn in the figure."
+        },
+        "normalized_beta_free_energy_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replica curves, ddof=1; blank where the source plot withholds SD."
+        },
+        "display_interpolation": {
+          "unit": "boolean (0 or 1)",
+          "description": "1 where an isolated nonfinite source estimate affects the smoothed display curve;0 otherwise."
+        },
+        "n_replicates": {
+          "unit": "count",
+          "description": "Number of simulation replicas."
+        }
+      }
+    },
+    {
+      "file": "radius_08_angstrom/CB441/occupancy_summary.csv",
+      "rows": 70,
+      "data_level": "plotted_summary",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless horizontal coordinate. Normalized water count is <N>/N0."
+        },
+        "normalized_water_count_mean": {
+          "unit": "dimensionless",
+          "description": "Dimensionless replica mean as drawn in the figure."
+        },
+        "normalized_water_count_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replica curves, ddof=1; blank where the source plot withholds SD."
+        },
+        "display_interpolation": {
+          "unit": "boolean (0 or 1)",
+          "description": "1 where an isolated nonfinite source estimate affects the smoothed display curve;0 otherwise."
+        },
+        "n_replicates": {
+          "unit": "count",
+          "description": "Number of simulation replicas."
+        }
+      }
+    },
+    {
+      "file": "radius_08_angstrom/CB441/replicate_01/free_energy.csv",
+      "rows": 69,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_08_angstrom/CB441/replicate_01/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_08_angstrom/CB441/replicate_02/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_08_angstrom/CB441/replicate_02/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_08_angstrom/CB441/replicate_03/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_08_angstrom/CB441/replicate_03/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_08_angstrom/CB442/free_energy_summary.csv",
+      "rows": 66,
+      "data_level": "plotted_summary",
+      "columns": {
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Dimensionless horizontal coordinate. Normalized water count is <N>/N0."
+        },
+        "normalized_beta_free_energy_mean": {
+          "unit": "dimensionless",
+          "description": "Dimensionless replica mean as drawn in the figure."
+        },
+        "normalized_beta_free_energy_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replica curves, ddof=1; blank where the source plot withholds SD."
+        },
+        "display_interpolation": {
+          "unit": "boolean (0 or 1)",
+          "description": "1 where an isolated nonfinite source estimate affects the smoothed display curve;0 otherwise."
+        },
+        "n_replicates": {
+          "unit": "count",
+          "description": "Number of simulation replicas."
+        }
+      }
+    },
+    {
+      "file": "radius_08_angstrom/CB442/occupancy_summary.csv",
+      "rows": 70,
+      "data_level": "plotted_summary",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless horizontal coordinate. Normalized water count is <N>/N0."
+        },
+        "normalized_water_count_mean": {
+          "unit": "dimensionless",
+          "description": "Dimensionless replica mean as drawn in the figure."
+        },
+        "normalized_water_count_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replica curves, ddof=1; blank where the source plot withholds SD."
+        },
+        "display_interpolation": {
+          "unit": "boolean (0 or 1)",
+          "description": "1 where an isolated nonfinite source estimate affects the smoothed display curve;0 otherwise."
+        },
+        "n_replicates": {
+          "unit": "count",
+          "description": "Number of simulation replicas."
+        }
+      }
+    },
+    {
+      "file": "radius_08_angstrom/CB442/replicate_01/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_08_angstrom/CB442/replicate_01/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_08_angstrom/CB442/replicate_02/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_08_angstrom/CB442/replicate_02/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_08_angstrom/CB442/replicate_03/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_08_angstrom/CB442/replicate_03/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_08_angstrom/Nuvia_cPrime/free_energy_summary.csv",
+      "rows": 59,
+      "data_level": "plotted_summary",
+      "columns": {
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Dimensionless horizontal coordinate. Normalized water count is <N>/N0."
+        },
+        "normalized_beta_free_energy_mean": {
+          "unit": "dimensionless",
+          "description": "Dimensionless replica mean as drawn in the figure."
+        },
+        "normalized_beta_free_energy_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replica curves, ddof=1; blank where the source plot withholds SD."
+        },
+        "display_interpolation": {
+          "unit": "boolean (0 or 1)",
+          "description": "1 where an isolated nonfinite source estimate affects the smoothed display curve;0 otherwise."
+        },
+        "n_replicates": {
+          "unit": "count",
+          "description": "Number of simulation replicas."
+        }
+      }
+    },
+    {
+      "file": "radius_08_angstrom/Nuvia_cPrime/occupancy_summary.csv",
+      "rows": 70,
+      "data_level": "plotted_summary",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless horizontal coordinate. Normalized water count is <N>/N0."
+        },
+        "normalized_water_count_mean": {
+          "unit": "dimensionless",
+          "description": "Dimensionless replica mean as drawn in the figure."
+        },
+        "normalized_water_count_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replica curves, ddof=1; blank where the source plot withholds SD."
+        },
+        "display_interpolation": {
+          "unit": "boolean (0 or 1)",
+          "description": "1 where an isolated nonfinite source estimate affects the smoothed display curve;0 otherwise."
+        },
+        "n_replicates": {
+          "unit": "count",
+          "description": "Number of simulation replicas."
+        }
+      }
+    },
+    {
+      "file": "radius_08_angstrom/Nuvia_cPrime/replicate_01/free_energy.csv",
+      "rows": 60,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_08_angstrom/Nuvia_cPrime/replicate_01/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_08_angstrom/Nuvia_cPrime/replicate_02/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_08_angstrom/Nuvia_cPrime/replicate_02/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_08_angstrom/Nuvia_cPrime/replicate_03/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_08_angstrom/Nuvia_cPrime/replicate_03/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_12_angstrom/CB431/free_energy_summary.csv",
+      "rows": 69,
+      "data_level": "plotted_summary",
+      "columns": {
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Dimensionless horizontal coordinate. Normalized water count is <N>/N0."
+        },
+        "normalized_beta_free_energy_mean": {
+          "unit": "dimensionless",
+          "description": "Dimensionless replica mean as drawn in the figure."
+        },
+        "normalized_beta_free_energy_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replica curves, ddof=1; blank where the source plot withholds SD."
+        },
+        "display_interpolation": {
+          "unit": "boolean (0 or 1)",
+          "description": "1 where an isolated nonfinite source estimate affects the smoothed display curve;0 otherwise."
+        },
+        "n_replicates": {
+          "unit": "count",
+          "description": "Number of simulation replicas."
+        }
+      }
+    },
+    {
+      "file": "radius_12_angstrom/CB431/occupancy_summary.csv",
+      "rows": 70,
+      "data_level": "plotted_summary",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless horizontal coordinate. Normalized water count is <N>/N0."
+        },
+        "normalized_water_count_mean": {
+          "unit": "dimensionless",
+          "description": "Dimensionless replica mean as drawn in the figure."
+        },
+        "normalized_water_count_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replica curves, ddof=1; blank where the source plot withholds SD."
+        },
+        "display_interpolation": {
+          "unit": "boolean (0 or 1)",
+          "description": "1 where an isolated nonfinite source estimate affects the smoothed display curve;0 otherwise."
+        },
+        "n_replicates": {
+          "unit": "count",
+          "description": "Number of simulation replicas."
+        }
+      }
+    },
+    {
+      "file": "radius_12_angstrom/CB431/replicate_01/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_12_angstrom/CB431/replicate_01/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_12_angstrom/CB431/replicate_02/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_12_angstrom/CB431/replicate_02/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_12_angstrom/CB431/replicate_03/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_12_angstrom/CB431/replicate_03/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_12_angstrom/CB433/free_energy_summary.csv",
+      "rows": 65,
+      "data_level": "plotted_summary",
+      "columns": {
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Dimensionless horizontal coordinate. Normalized water count is <N>/N0."
+        },
+        "normalized_beta_free_energy_mean": {
+          "unit": "dimensionless",
+          "description": "Dimensionless replica mean as drawn in the figure."
+        },
+        "normalized_beta_free_energy_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replica curves, ddof=1; blank where the source plot withholds SD."
+        },
+        "display_interpolation": {
+          "unit": "boolean (0 or 1)",
+          "description": "1 where an isolated nonfinite source estimate affects the smoothed display curve;0 otherwise."
+        },
+        "n_replicates": {
+          "unit": "count",
+          "description": "Number of simulation replicas."
+        }
+      }
+    },
+    {
+      "file": "radius_12_angstrom/CB433/occupancy_summary.csv",
+      "rows": 70,
+      "data_level": "plotted_summary",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless horizontal coordinate. Normalized water count is <N>/N0."
+        },
+        "normalized_water_count_mean": {
+          "unit": "dimensionless",
+          "description": "Dimensionless replica mean as drawn in the figure."
+        },
+        "normalized_water_count_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replica curves, ddof=1; blank where the source plot withholds SD."
+        },
+        "display_interpolation": {
+          "unit": "boolean (0 or 1)",
+          "description": "1 where an isolated nonfinite source estimate affects the smoothed display curve;0 otherwise."
+        },
+        "n_replicates": {
+          "unit": "count",
+          "description": "Number of simulation replicas."
+        }
+      }
+    },
+    {
+      "file": "radius_12_angstrom/CB433/replicate_01/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_12_angstrom/CB433/replicate_01/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_12_angstrom/CB433/replicate_02/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_12_angstrom/CB433/replicate_02/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_12_angstrom/CB433/replicate_03/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_12_angstrom/CB433/replicate_03/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_12_angstrom/CB434/free_energy_summary.csv",
+      "rows": 68,
+      "data_level": "plotted_summary",
+      "columns": {
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Dimensionless horizontal coordinate. Normalized water count is <N>/N0."
+        },
+        "normalized_beta_free_energy_mean": {
+          "unit": "dimensionless",
+          "description": "Dimensionless replica mean as drawn in the figure."
+        },
+        "normalized_beta_free_energy_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replica curves, ddof=1; blank where the source plot withholds SD."
+        },
+        "display_interpolation": {
+          "unit": "boolean (0 or 1)",
+          "description": "1 where an isolated nonfinite source estimate affects the smoothed display curve;0 otherwise."
+        },
+        "n_replicates": {
+          "unit": "count",
+          "description": "Number of simulation replicas."
+        }
+      }
+    },
+    {
+      "file": "radius_12_angstrom/CB434/occupancy_summary.csv",
+      "rows": 70,
+      "data_level": "plotted_summary",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless horizontal coordinate. Normalized water count is <N>/N0."
+        },
+        "normalized_water_count_mean": {
+          "unit": "dimensionless",
+          "description": "Dimensionless replica mean as drawn in the figure."
+        },
+        "normalized_water_count_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replica curves, ddof=1; blank where the source plot withholds SD."
+        },
+        "display_interpolation": {
+          "unit": "boolean (0 or 1)",
+          "description": "1 where an isolated nonfinite source estimate affects the smoothed display curve;0 otherwise."
+        },
+        "n_replicates": {
+          "unit": "count",
+          "description": "Number of simulation replicas."
+        }
+      }
+    },
+    {
+      "file": "radius_12_angstrom/CB434/replicate_01/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_12_angstrom/CB434/replicate_01/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_12_angstrom/CB434/replicate_02/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_12_angstrom/CB434/replicate_02/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_12_angstrom/CB434/replicate_03/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_12_angstrom/CB434/replicate_03/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_12_angstrom/CB441/free_energy_summary.csv",
+      "rows": 70,
+      "data_level": "plotted_summary",
+      "columns": {
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Dimensionless horizontal coordinate. Normalized water count is <N>/N0."
+        },
+        "normalized_beta_free_energy_mean": {
+          "unit": "dimensionless",
+          "description": "Dimensionless replica mean as drawn in the figure."
+        },
+        "normalized_beta_free_energy_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replica curves, ddof=1; blank where the source plot withholds SD."
+        },
+        "display_interpolation": {
+          "unit": "boolean (0 or 1)",
+          "description": "1 where an isolated nonfinite source estimate affects the smoothed display curve;0 otherwise."
+        },
+        "n_replicates": {
+          "unit": "count",
+          "description": "Number of simulation replicas."
+        }
+      }
+    },
+    {
+      "file": "radius_12_angstrom/CB441/occupancy_summary.csv",
+      "rows": 70,
+      "data_level": "plotted_summary",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless horizontal coordinate. Normalized water count is <N>/N0."
+        },
+        "normalized_water_count_mean": {
+          "unit": "dimensionless",
+          "description": "Dimensionless replica mean as drawn in the figure."
+        },
+        "normalized_water_count_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replica curves, ddof=1; blank where the source plot withholds SD."
+        },
+        "display_interpolation": {
+          "unit": "boolean (0 or 1)",
+          "description": "1 where an isolated nonfinite source estimate affects the smoothed display curve;0 otherwise."
+        },
+        "n_replicates": {
+          "unit": "count",
+          "description": "Number of simulation replicas."
+        }
+      }
+    },
+    {
+      "file": "radius_12_angstrom/CB441/replicate_01/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_12_angstrom/CB441/replicate_01/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_12_angstrom/CB441/replicate_02/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_12_angstrom/CB441/replicate_02/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_12_angstrom/CB441/replicate_03/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_12_angstrom/CB441/replicate_03/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_12_angstrom/CB442/free_energy_summary.csv",
+      "rows": 67,
+      "data_level": "plotted_summary",
+      "columns": {
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Dimensionless horizontal coordinate. Normalized water count is <N>/N0."
+        },
+        "normalized_beta_free_energy_mean": {
+          "unit": "dimensionless",
+          "description": "Dimensionless replica mean as drawn in the figure."
+        },
+        "normalized_beta_free_energy_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replica curves, ddof=1; blank where the source plot withholds SD."
+        },
+        "display_interpolation": {
+          "unit": "boolean (0 or 1)",
+          "description": "1 where an isolated nonfinite source estimate affects the smoothed display curve;0 otherwise."
+        },
+        "n_replicates": {
+          "unit": "count",
+          "description": "Number of simulation replicas."
+        }
+      }
+    },
+    {
+      "file": "radius_12_angstrom/CB442/occupancy_summary.csv",
+      "rows": 70,
+      "data_level": "plotted_summary",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless horizontal coordinate. Normalized water count is <N>/N0."
+        },
+        "normalized_water_count_mean": {
+          "unit": "dimensionless",
+          "description": "Dimensionless replica mean as drawn in the figure."
+        },
+        "normalized_water_count_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replica curves, ddof=1; blank where the source plot withholds SD."
+        },
+        "display_interpolation": {
+          "unit": "boolean (0 or 1)",
+          "description": "1 where an isolated nonfinite source estimate affects the smoothed display curve;0 otherwise."
+        },
+        "n_replicates": {
+          "unit": "count",
+          "description": "Number of simulation replicas."
+        }
+      }
+    },
+    {
+      "file": "radius_12_angstrom/CB442/replicate_01/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_12_angstrom/CB442/replicate_01/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_12_angstrom/CB442/replicate_02/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_12_angstrom/CB442/replicate_02/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_12_angstrom/CB442/replicate_03/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_12_angstrom/CB442/replicate_03/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_12_angstrom/Nuvia_cPrime/free_energy_summary.csv",
+      "rows": 66,
+      "data_level": "plotted_summary",
+      "columns": {
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Dimensionless horizontal coordinate. Normalized water count is <N>/N0."
+        },
+        "normalized_beta_free_energy_mean": {
+          "unit": "dimensionless",
+          "description": "Dimensionless replica mean as drawn in the figure."
+        },
+        "normalized_beta_free_energy_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replica curves, ddof=1; blank where the source plot withholds SD."
+        },
+        "display_interpolation": {
+          "unit": "boolean (0 or 1)",
+          "description": "1 where an isolated nonfinite source estimate affects the smoothed display curve;0 otherwise."
+        },
+        "n_replicates": {
+          "unit": "count",
+          "description": "Number of simulation replicas."
+        }
+      }
+    },
+    {
+      "file": "radius_12_angstrom/Nuvia_cPrime/occupancy_summary.csv",
+      "rows": 70,
+      "data_level": "plotted_summary",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless horizontal coordinate. Normalized water count is <N>/N0."
+        },
+        "normalized_water_count_mean": {
+          "unit": "dimensionless",
+          "description": "Dimensionless replica mean as drawn in the figure."
+        },
+        "normalized_water_count_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replica curves, ddof=1; blank where the source plot withholds SD."
+        },
+        "display_interpolation": {
+          "unit": "boolean (0 or 1)",
+          "description": "1 where an isolated nonfinite source estimate affects the smoothed display curve;0 otherwise."
+        },
+        "n_replicates": {
+          "unit": "count",
+          "description": "Number of simulation replicas."
+        }
+      }
+    },
+    {
+      "file": "radius_12_angstrom/Nuvia_cPrime/replicate_01/free_energy.csv",
+      "rows": 67,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_12_angstrom/Nuvia_cPrime/replicate_01/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_12_angstrom/Nuvia_cPrime/replicate_02/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_12_angstrom/Nuvia_cPrime/replicate_02/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_12_angstrom/Nuvia_cPrime/replicate_03/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_12_angstrom/Nuvia_cPrime/replicate_03/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_20_angstrom/CB431/free_energy_summary.csv",
+      "rows": 68,
+      "data_level": "plotted_summary",
+      "columns": {
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Dimensionless horizontal coordinate. Normalized water count is <N>/N0."
+        },
+        "normalized_beta_free_energy_mean": {
+          "unit": "dimensionless",
+          "description": "Dimensionless replica mean as drawn in the figure."
+        },
+        "normalized_beta_free_energy_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replica curves, ddof=1; blank where the source plot withholds SD."
+        },
+        "display_interpolation": {
+          "unit": "boolean (0 or 1)",
+          "description": "1 where an isolated nonfinite source estimate affects the smoothed display curve;0 otherwise."
+        },
+        "n_replicates": {
+          "unit": "count",
+          "description": "Number of simulation replicas."
+        }
+      }
+    },
+    {
+      "file": "radius_20_angstrom/CB431/occupancy_summary.csv",
+      "rows": 70,
+      "data_level": "plotted_summary",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless horizontal coordinate. Normalized water count is <N>/N0."
+        },
+        "normalized_water_count_mean": {
+          "unit": "dimensionless",
+          "description": "Dimensionless replica mean as drawn in the figure."
+        },
+        "normalized_water_count_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replica curves, ddof=1; blank where the source plot withholds SD."
+        },
+        "display_interpolation": {
+          "unit": "boolean (0 or 1)",
+          "description": "1 where an isolated nonfinite source estimate affects the smoothed display curve;0 otherwise."
+        },
+        "n_replicates": {
+          "unit": "count",
+          "description": "Number of simulation replicas."
+        }
+      }
+    },
+    {
+      "file": "radius_20_angstrom/CB431/replicate_01/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_20_angstrom/CB431/replicate_01/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_20_angstrom/CB431/replicate_02/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_20_angstrom/CB431/replicate_02/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_20_angstrom/CB431/replicate_03/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_20_angstrom/CB431/replicate_03/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_20_angstrom/CB433/free_energy_summary.csv",
+      "rows": 69,
+      "data_level": "plotted_summary",
+      "columns": {
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Dimensionless horizontal coordinate. Normalized water count is <N>/N0."
+        },
+        "normalized_beta_free_energy_mean": {
+          "unit": "dimensionless",
+          "description": "Dimensionless replica mean as drawn in the figure."
+        },
+        "normalized_beta_free_energy_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replica curves, ddof=1; blank where the source plot withholds SD."
+        },
+        "display_interpolation": {
+          "unit": "boolean (0 or 1)",
+          "description": "1 where an isolated nonfinite source estimate affects the smoothed display curve;0 otherwise."
+        },
+        "n_replicates": {
+          "unit": "count",
+          "description": "Number of simulation replicas."
+        }
+      }
+    },
+    {
+      "file": "radius_20_angstrom/CB433/occupancy_summary.csv",
+      "rows": 70,
+      "data_level": "plotted_summary",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless horizontal coordinate. Normalized water count is <N>/N0."
+        },
+        "normalized_water_count_mean": {
+          "unit": "dimensionless",
+          "description": "Dimensionless replica mean as drawn in the figure."
+        },
+        "normalized_water_count_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replica curves, ddof=1; blank where the source plot withholds SD."
+        },
+        "display_interpolation": {
+          "unit": "boolean (0 or 1)",
+          "description": "1 where an isolated nonfinite source estimate affects the smoothed display curve;0 otherwise."
+        },
+        "n_replicates": {
+          "unit": "count",
+          "description": "Number of simulation replicas."
+        }
+      }
+    },
+    {
+      "file": "radius_20_angstrom/CB433/replicate_01/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_20_angstrom/CB433/replicate_01/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_20_angstrom/CB433/replicate_02/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_20_angstrom/CB433/replicate_02/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_20_angstrom/CB433/replicate_03/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_20_angstrom/CB433/replicate_03/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_20_angstrom/CB434/free_energy_summary.csv",
+      "rows": 69,
+      "data_level": "plotted_summary",
+      "columns": {
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Dimensionless horizontal coordinate. Normalized water count is <N>/N0."
+        },
+        "normalized_beta_free_energy_mean": {
+          "unit": "dimensionless",
+          "description": "Dimensionless replica mean as drawn in the figure."
+        },
+        "normalized_beta_free_energy_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replica curves, ddof=1; blank where the source plot withholds SD."
+        },
+        "display_interpolation": {
+          "unit": "boolean (0 or 1)",
+          "description": "1 where an isolated nonfinite source estimate affects the smoothed display curve;0 otherwise."
+        },
+        "n_replicates": {
+          "unit": "count",
+          "description": "Number of simulation replicas."
+        }
+      }
+    },
+    {
+      "file": "radius_20_angstrom/CB434/occupancy_summary.csv",
+      "rows": 70,
+      "data_level": "plotted_summary",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless horizontal coordinate. Normalized water count is <N>/N0."
+        },
+        "normalized_water_count_mean": {
+          "unit": "dimensionless",
+          "description": "Dimensionless replica mean as drawn in the figure."
+        },
+        "normalized_water_count_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replica curves, ddof=1; blank where the source plot withholds SD."
+        },
+        "display_interpolation": {
+          "unit": "boolean (0 or 1)",
+          "description": "1 where an isolated nonfinite source estimate affects the smoothed display curve;0 otherwise."
+        },
+        "n_replicates": {
+          "unit": "count",
+          "description": "Number of simulation replicas."
+        }
+      }
+    },
+    {
+      "file": "radius_20_angstrom/CB434/replicate_01/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_20_angstrom/CB434/replicate_01/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_20_angstrom/CB434/replicate_02/free_energy.csv",
+      "rows": 69,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_20_angstrom/CB434/replicate_02/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_20_angstrom/CB434/replicate_03/free_energy.csv",
+      "rows": 69,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_20_angstrom/CB434/replicate_03/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_20_angstrom/CB441/free_energy_summary.csv",
+      "rows": 69,
+      "data_level": "plotted_summary",
+      "columns": {
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Dimensionless horizontal coordinate. Normalized water count is <N>/N0."
+        },
+        "normalized_beta_free_energy_mean": {
+          "unit": "dimensionless",
+          "description": "Dimensionless replica mean as drawn in the figure."
+        },
+        "normalized_beta_free_energy_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replica curves, ddof=1; blank where the source plot withholds SD."
+        },
+        "display_interpolation": {
+          "unit": "boolean (0 or 1)",
+          "description": "1 where an isolated nonfinite source estimate affects the smoothed display curve;0 otherwise."
+        },
+        "n_replicates": {
+          "unit": "count",
+          "description": "Number of simulation replicas."
+        }
+      }
+    },
+    {
+      "file": "radius_20_angstrom/CB441/occupancy_summary.csv",
+      "rows": 70,
+      "data_level": "plotted_summary",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless horizontal coordinate. Normalized water count is <N>/N0."
+        },
+        "normalized_water_count_mean": {
+          "unit": "dimensionless",
+          "description": "Dimensionless replica mean as drawn in the figure."
+        },
+        "normalized_water_count_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replica curves, ddof=1; blank where the source plot withholds SD."
+        },
+        "display_interpolation": {
+          "unit": "boolean (0 or 1)",
+          "description": "1 where an isolated nonfinite source estimate affects the smoothed display curve;0 otherwise."
+        },
+        "n_replicates": {
+          "unit": "count",
+          "description": "Number of simulation replicas."
+        }
+      }
+    },
+    {
+      "file": "radius_20_angstrom/CB441/replicate_01/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_20_angstrom/CB441/replicate_01/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_20_angstrom/CB441/replicate_02/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_20_angstrom/CB441/replicate_02/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_20_angstrom/CB441/replicate_03/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_20_angstrom/CB441/replicate_03/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_20_angstrom/CB442/free_energy_summary.csv",
+      "rows": 70,
+      "data_level": "plotted_summary",
+      "columns": {
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Dimensionless horizontal coordinate. Normalized water count is <N>/N0."
+        },
+        "normalized_beta_free_energy_mean": {
+          "unit": "dimensionless",
+          "description": "Dimensionless replica mean as drawn in the figure."
+        },
+        "normalized_beta_free_energy_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replica curves, ddof=1; blank where the source plot withholds SD."
+        },
+        "display_interpolation": {
+          "unit": "boolean (0 or 1)",
+          "description": "1 where an isolated nonfinite source estimate affects the smoothed display curve;0 otherwise."
+        },
+        "n_replicates": {
+          "unit": "count",
+          "description": "Number of simulation replicas."
+        }
+      }
+    },
+    {
+      "file": "radius_20_angstrom/CB442/occupancy_summary.csv",
+      "rows": 70,
+      "data_level": "plotted_summary",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless horizontal coordinate. Normalized water count is <N>/N0."
+        },
+        "normalized_water_count_mean": {
+          "unit": "dimensionless",
+          "description": "Dimensionless replica mean as drawn in the figure."
+        },
+        "normalized_water_count_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replica curves, ddof=1; blank where the source plot withholds SD."
+        },
+        "display_interpolation": {
+          "unit": "boolean (0 or 1)",
+          "description": "1 where an isolated nonfinite source estimate affects the smoothed display curve;0 otherwise."
+        },
+        "n_replicates": {
+          "unit": "count",
+          "description": "Number of simulation replicas."
+        }
+      }
+    },
+    {
+      "file": "radius_20_angstrom/CB442/replicate_01/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_20_angstrom/CB442/replicate_01/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_20_angstrom/CB442/replicate_02/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_20_angstrom/CB442/replicate_02/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_20_angstrom/CB442/replicate_03/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_20_angstrom/CB442/replicate_03/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_20_angstrom/Nuvia_cPrime/free_energy_summary.csv",
+      "rows": 69,
+      "data_level": "plotted_summary",
+      "columns": {
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Dimensionless horizontal coordinate. Normalized water count is <N>/N0."
+        },
+        "normalized_beta_free_energy_mean": {
+          "unit": "dimensionless",
+          "description": "Dimensionless replica mean as drawn in the figure."
+        },
+        "normalized_beta_free_energy_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replica curves, ddof=1; blank where the source plot withholds SD."
+        },
+        "display_interpolation": {
+          "unit": "boolean (0 or 1)",
+          "description": "1 where an isolated nonfinite source estimate affects the smoothed display curve;0 otherwise."
+        },
+        "n_replicates": {
+          "unit": "count",
+          "description": "Number of simulation replicas."
+        }
+      }
+    },
+    {
+      "file": "radius_20_angstrom/Nuvia_cPrime/occupancy_summary.csv",
+      "rows": 70,
+      "data_level": "plotted_summary",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless horizontal coordinate. Normalized water count is <N>/N0."
+        },
+        "normalized_water_count_mean": {
+          "unit": "dimensionless",
+          "description": "Dimensionless replica mean as drawn in the figure."
+        },
+        "normalized_water_count_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation across three replica curves, ddof=1; blank where the source plot withholds SD."
+        },
+        "display_interpolation": {
+          "unit": "boolean (0 or 1)",
+          "description": "1 where an isolated nonfinite source estimate affects the smoothed display curve;0 otherwise."
+        },
+        "n_replicates": {
+          "unit": "count",
+          "description": "Number of simulation replicas."
+        }
+      }
+    },
+    {
+      "file": "radius_20_angstrom/Nuvia_cPrime/replicate_01/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_20_angstrom/Nuvia_cPrime/replicate_01/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_20_angstrom/Nuvia_cPrime/replicate_02/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_20_angstrom/Nuvia_cPrime/replicate_02/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    },
+    {
+      "file": "radius_20_angstrom/Nuvia_cPrime/replicate_03/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count; molecular count."
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless beta*F; blank for a nonfinite source estimate."
+        },
+        "estimate_status": {
+          "unit": "text",
+          "description": "finite or positive_infinity_in_source."
+        }
+      }
+    },
+    {
+      "file": "radius_20_angstrom/Nuvia_cPrime/replicate_03/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias beta*phi."
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean water count in the probe volume; molecular count."
+        }
+      }
+    }
+  ]
+}

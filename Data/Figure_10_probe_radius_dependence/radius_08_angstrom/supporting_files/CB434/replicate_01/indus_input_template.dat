@@ -1,0 +1,37 @@
+### OOP input file ###
+
+# Water oxygens
+AtomGroup = {
+	name      = target
+	selection = [ atom_index 14185-142989:4 ]
+}
+
+ProbeVolume = {
+    name = v
+    target_atom_group = target
+    type = cylinder
+    axis = z
+    base = [ 2.2 0.0 1.536 ]
+    radius = 0.8
+    height = 1.4
+    sigma = 0.01
+    alpha_c = 0.02
+}
+
+# Biasing parameters
+Bias = {
+	# Linear
+	name = bias_ntilde
+	order_parameter = v
+	phi = xxx
+	constant  = 0
+}
+
+# Output options
+#PrintForces = no
+
+OutputFile = {
+	name   = op.out
+	values = [ v.N  v.Ntilde ]
+	stride = 500
+}

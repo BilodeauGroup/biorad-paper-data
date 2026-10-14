@@ -1,0 +1,92 @@
+{
+  "figure": "S12",
+  "title": "Protein-adsorption potential of mean force",
+  "ligand_order": [
+    "Nuvia cPrime",
+    "CB434",
+    "CB442"
+  ],
+  "files": [
+    {
+      "file": "CB434.csv",
+      "rows": 200,
+      "data_level": "plotted",
+      "columns": {
+        "com_distance_nm": {
+          "unit": "nm",
+          "description": "Distance between the protein and surface centres of mass."
+        },
+        "pmf_kj_per_mol": {
+          "unit": "kJ/mol",
+          "description": "Potential of mean force with the original plotted energy reference."
+        },
+        "bootstrap_sd_kj_per_mol": {
+          "unit": "kJ/mol",
+          "description": "Bootstrap standard deviation from 100 WHAM bootstrap trials."
+        },
+        "pmf_minus_sd_kj_per_mol": {
+          "unit": "kJ/mol",
+          "description": "Lower edge of the plotted uncertainty band."
+        },
+        "pmf_plus_sd_kj_per_mol": {
+          "unit": "kJ/mol",
+          "description": "Upper edge of the plotted uncertainty band."
+        }
+      }
+    },
+    {
+      "file": "CB442.csv",
+      "rows": 200,
+      "data_level": "plotted",
+      "columns": {
+        "com_distance_nm": {
+          "unit": "nm",
+          "description": "Distance between the protein and surface centres of mass."
+        },
+        "pmf_kj_per_mol": {
+          "unit": "kJ/mol",
+          "description": "Potential of mean force with the original plotted energy reference."
+        },
+        "bootstrap_sd_kj_per_mol": {
+          "unit": "kJ/mol",
+          "description": "Bootstrap standard deviation from 100 WHAM bootstrap trials."
+        },
+        "pmf_minus_sd_kj_per_mol": {
+          "unit": "kJ/mol",
+          "description": "Lower edge of the plotted uncertainty band."
+        },
+        "pmf_plus_sd_kj_per_mol": {
+          "unit": "kJ/mol",
+          "description": "Upper edge of the plotted uncertainty band."
+        }
+      }
+    },
+    {
+      "file": "Nuvia_cPrime.csv",
+      "rows": 200,
+      "data_level": "plotted",
+      "columns": {
+        "com_distance_nm": {
+          "unit": "nm",
+          "description": "Distance between the protein and surface centres of mass."
+        },
+        "pmf_kj_per_mol": {
+          "unit": "kJ/mol",
+          "description": "Potential of mean force with the original plotted energy reference."
+        },
+        "bootstrap_sd_kj_per_mol": {
+          "unit": "kJ/mol",
+          "description": "Bootstrap standard deviation from 100 WHAM bootstrap trials."
+        },
+        "pmf_minus_sd_kj_per_mol": {
+          "unit": "kJ/mol",
+          "description": "Lower edge of the plotted uncertainty band."
+        },
+        "pmf_plus_sd_kj_per_mol": {
+          "unit": "kJ/mol",
+          "description": "Upper edge of the plotted uncertainty band."
+        }
+      }
+    }
+  ]
+}

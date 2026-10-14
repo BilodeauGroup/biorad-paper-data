@@ -1,0 +1,104 @@
+{
+  "figure": "S07",
+  "title": "Ligand-free volume as a function of cylinder radius",
+  "ligand_order": [
+    "CB431",
+    "Nuvia cPrime",
+    "CB433",
+    "CB441",
+    "CB434",
+    "CB442"
+  ],
+  "files": [
+    {
+      "file": "CB431.csv",
+      "rows": 4,
+      "data_level": "plotted",
+      "columns": {
+        "cylinder_radius_angstrom": {
+          "unit": "angstrom",
+          "description": "Radius of the cylindrical probe volume."
+        },
+        "ligand_free_volume_nm3": {
+          "unit": "nm^3",
+          "description": "Volume of grid cells more than 4 angstrom from any ligand heavy atom."
+        }
+      }
+    },
+    {
+      "file": "CB433.csv",
+      "rows": 4,
+      "data_level": "plotted",
+      "columns": {
+        "cylinder_radius_angstrom": {
+          "unit": "angstrom",
+          "description": "Radius of the cylindrical probe volume."
+        },
+        "ligand_free_volume_nm3": {
+          "unit": "nm^3",
+          "description": "Volume of grid cells more than 4 angstrom from any ligand heavy atom."
+        }
+      }
+    },
+    {
+      "file": "CB434.csv",
+      "rows": 4,
+      "data_level": "plotted",
+      "columns": {
+        "cylinder_radius_angstrom": {
+          "unit": "angstrom",
+          "description": "Radius of the cylindrical probe volume."
+        },
+        "ligand_free_volume_nm3": {
+          "unit": "nm^3",
+          "description": "Volume of grid cells more than 4 angstrom from any ligand heavy atom."
+        }
+      }
+    },
+    {
+      "file": "CB441.csv",
+      "rows": 4,
+      "data_level": "plotted",
+      "columns": {
+        "cylinder_radius_angstrom": {
+          "unit": "angstrom",
+          "description": "Radius of the cylindrical probe volume."
+        },
+        "ligand_free_volume_nm3": {
+          "unit": "nm^3",
+          "description": "Volume of grid cells more than 4 angstrom from any ligand heavy atom."
+        }
+      }
+    },
+    {
+      "file": "CB442.csv",
+      "rows": 4,
+      "data_level": "plotted",
+      "columns": {
+        "cylinder_radius_angstrom": {
+          "unit": "angstrom",
+          "description": "Radius of the cylindrical probe volume."
+        },
+        "ligand_free_volume_nm3": {
+          "unit": "nm^3",
+          "description": "Volume of grid cells more than 4 angstrom from any ligand heavy atom."
+        }
+      }
+    },
+    {
+      "file": "Nuvia_cPrime.csv",
+      "rows": 4,
+      "data_level": "plotted",
+      "columns": {
+        "cylinder_radius_angstrom": {
+          "unit": "angstrom",
+          "description": "Radius of the cylindrical probe volume."
+        },
+        "ligand_free_volume_nm3": {
+          "unit": "nm^3",
+          "description": "Volume of grid cells more than 4 angstrom from any ligand heavy atom."
+        }
+      }
+    }
+  ]
+}

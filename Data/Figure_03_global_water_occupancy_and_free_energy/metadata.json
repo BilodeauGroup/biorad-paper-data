@@ -1,0 +1,1118 @@
+{
+  "figure": "03",
+  "title": "Global union of spheres: water occupancy and free energy",
+  "ligand_order": [
+    "CB431",
+    "Nuvia cPrime",
+    "CB433",
+    "CB441",
+    "CB434",
+    "CB442"
+  ],
+  "files": [
+    {
+      "file": "CB431/free_energy_summary.csv",
+      "rows": 69,
+      "data_level": "plotted_summary",
+      "columns": {
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Mean water count divided by the normalization value specified in README.txt"
+        },
+        "normalized_beta_free_energy_mean": {
+          "unit": "dimensionless",
+          "description": "Mean of normalized free-energy replica curves on the common grid"
+        },
+        "normalized_beta_free_energy_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation of normalized free-energy replica curves (ddof=1)"
+        },
+        "n_replicates": {
+          "unit": "integer",
+          "description": "Number of replicas contributing to the summary"
+        }
+      }
+    },
+    {
+      "file": "CB431/occupancy_summary.csv",
+      "rows": 70,
+      "data_level": "plotted_summary",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias strength, beta times phi"
+        },
+        "normalized_water_count_mean": {
+          "unit": "dimensionless",
+          "description": "Mean of the normalized, smoothed replica curves on the common grid"
+        },
+        "normalized_water_count_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation of the normalized, smoothed replica curves (ddof=1)"
+        },
+        "n_replicates": {
+          "unit": "integer",
+          "description": "Number of replicas contributing to the summary"
+        }
+      }
+    },
+    {
+      "file": "CB431/replicate_01/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean number of water molecules from the analysis output, before display smoothing"
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless water-removal free energy, beta times F"
+        },
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Mean water count divided by the normalization value specified in README.txt"
+        },
+        "normalized_beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "beta F divided by the replica normalization water count"
+        }
+      }
+    },
+    {
+      "file": "CB431/replicate_01/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias strength, beta times phi"
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean number of water molecules from the analysis output, before display smoothing"
+        },
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Mean water count divided by the normalization value specified in README.txt"
+        },
+        "normalized_water_count_smoothed": {
+          "unit": "dimensionless",
+          "description": "Normalized water count after the documented display smoothing"
+        }
+      }
+    },
+    {
+      "file": "CB431/replicate_02/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean number of water molecules from the analysis output, before display smoothing"
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless water-removal free energy, beta times F"
+        },
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Mean water count divided by the normalization value specified in README.txt"
+        },
+        "normalized_beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "beta F divided by the replica normalization water count"
+        }
+      }
+    },
+    {
+      "file": "CB431/replicate_02/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias strength, beta times phi"
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean number of water molecules from the analysis output, before display smoothing"
+        },
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Mean water count divided by the normalization value specified in README.txt"
+        },
+        "normalized_water_count_smoothed": {
+          "unit": "dimensionless",
+          "description": "Normalized water count after the documented display smoothing"
+        }
+      }
+    },
+    {
+      "file": "CB431/replicate_03/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean number of water molecules from the analysis output, before display smoothing"
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless water-removal free energy, beta times F"
+        },
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Mean water count divided by the normalization value specified in README.txt"
+        },
+        "normalized_beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "beta F divided by the replica normalization water count"
+        }
+      }
+    },
+    {
+      "file": "CB431/replicate_03/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias strength, beta times phi"
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean number of water molecules from the analysis output, before display smoothing"
+        },
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Mean water count divided by the normalization value specified in README.txt"
+        },
+        "normalized_water_count_smoothed": {
+          "unit": "dimensionless",
+          "description": "Normalized water count after the documented display smoothing"
+        }
+      }
+    },
+    {
+      "file": "CB433/free_energy_summary.csv",
+      "rows": 69,
+      "data_level": "plotted_summary",
+      "columns": {
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Mean water count divided by the normalization value specified in README.txt"
+        },
+        "normalized_beta_free_energy_mean": {
+          "unit": "dimensionless",
+          "description": "Mean of normalized free-energy replica curves on the common grid"
+        },
+        "normalized_beta_free_energy_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation of normalized free-energy replica curves (ddof=1)"
+        },
+        "n_replicates": {
+          "unit": "integer",
+          "description": "Number of replicas contributing to the summary"
+        }
+      }
+    },
+    {
+      "file": "CB433/occupancy_summary.csv",
+      "rows": 70,
+      "data_level": "plotted_summary",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias strength, beta times phi"
+        },
+        "normalized_water_count_mean": {
+          "unit": "dimensionless",
+          "description": "Mean of the normalized, smoothed replica curves on the common grid"
+        },
+        "normalized_water_count_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation of the normalized, smoothed replica curves (ddof=1)"
+        },
+        "n_replicates": {
+          "unit": "integer",
+          "description": "Number of replicas contributing to the summary"
+        }
+      }
+    },
+    {
+      "file": "CB433/replicate_01/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean number of water molecules from the analysis output, before display smoothing"
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless water-removal free energy, beta times F"
+        },
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Mean water count divided by the normalization value specified in README.txt"
+        },
+        "normalized_beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "beta F divided by the replica normalization water count"
+        }
+      }
+    },
+    {
+      "file": "CB433/replicate_01/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias strength, beta times phi"
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean number of water molecules from the analysis output, before display smoothing"
+        },
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Mean water count divided by the normalization value specified in README.txt"
+        },
+        "normalized_water_count_smoothed": {
+          "unit": "dimensionless",
+          "description": "Normalized water count after the documented display smoothing"
+        }
+      }
+    },
+    {
+      "file": "CB433/replicate_02/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean number of water molecules from the analysis output, before display smoothing"
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless water-removal free energy, beta times F"
+        },
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Mean water count divided by the normalization value specified in README.txt"
+        },
+        "normalized_beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "beta F divided by the replica normalization water count"
+        }
+      }
+    },
+    {
+      "file": "CB433/replicate_02/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias strength, beta times phi"
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean number of water molecules from the analysis output, before display smoothing"
+        },
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Mean water count divided by the normalization value specified in README.txt"
+        },
+        "normalized_water_count_smoothed": {
+          "unit": "dimensionless",
+          "description": "Normalized water count after the documented display smoothing"
+        }
+      }
+    },
+    {
+      "file": "CB433/replicate_03/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean number of water molecules from the analysis output, before display smoothing"
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless water-removal free energy, beta times F"
+        },
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Mean water count divided by the normalization value specified in README.txt"
+        },
+        "normalized_beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "beta F divided by the replica normalization water count"
+        }
+      }
+    },
+    {
+      "file": "CB433/replicate_03/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias strength, beta times phi"
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean number of water molecules from the analysis output, before display smoothing"
+        },
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Mean water count divided by the normalization value specified in README.txt"
+        },
+        "normalized_water_count_smoothed": {
+          "unit": "dimensionless",
+          "description": "Normalized water count after the documented display smoothing"
+        }
+      }
+    },
+    {
+      "file": "CB434/free_energy_summary.csv",
+      "rows": 69,
+      "data_level": "plotted_summary",
+      "columns": {
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Mean water count divided by the normalization value specified in README.txt"
+        },
+        "normalized_beta_free_energy_mean": {
+          "unit": "dimensionless",
+          "description": "Mean of normalized free-energy replica curves on the common grid"
+        },
+        "normalized_beta_free_energy_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation of normalized free-energy replica curves (ddof=1)"
+        },
+        "n_replicates": {
+          "unit": "integer",
+          "description": "Number of replicas contributing to the summary"
+        }
+      }
+    },
+    {
+      "file": "CB434/occupancy_summary.csv",
+      "rows": 70,
+      "data_level": "plotted_summary",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias strength, beta times phi"
+        },
+        "normalized_water_count_mean": {
+          "unit": "dimensionless",
+          "description": "Mean of the normalized, smoothed replica curves on the common grid"
+        },
+        "normalized_water_count_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation of the normalized, smoothed replica curves (ddof=1)"
+        },
+        "n_replicates": {
+          "unit": "integer",
+          "description": "Number of replicas contributing to the summary"
+        }
+      }
+    },
+    {
+      "file": "CB434/replicate_01/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean number of water molecules from the analysis output, before display smoothing"
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless water-removal free energy, beta times F"
+        },
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Mean water count divided by the normalization value specified in README.txt"
+        },
+        "normalized_beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "beta F divided by the replica normalization water count"
+        }
+      }
+    },
+    {
+      "file": "CB434/replicate_01/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias strength, beta times phi"
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean number of water molecules from the analysis output, before display smoothing"
+        },
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Mean water count divided by the normalization value specified in README.txt"
+        },
+        "normalized_water_count_smoothed": {
+          "unit": "dimensionless",
+          "description": "Normalized water count after the documented display smoothing"
+        }
+      }
+    },
+    {
+      "file": "CB434/replicate_02/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean number of water molecules from the analysis output, before display smoothing"
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless water-removal free energy, beta times F"
+        },
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Mean water count divided by the normalization value specified in README.txt"
+        },
+        "normalized_beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "beta F divided by the replica normalization water count"
+        }
+      }
+    },
+    {
+      "file": "CB434/replicate_02/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias strength, beta times phi"
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean number of water molecules from the analysis output, before display smoothing"
+        },
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Mean water count divided by the normalization value specified in README.txt"
+        },
+        "normalized_water_count_smoothed": {
+          "unit": "dimensionless",
+          "description": "Normalized water count after the documented display smoothing"
+        }
+      }
+    },
+    {
+      "file": "CB434/replicate_03/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean number of water molecules from the analysis output, before display smoothing"
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless water-removal free energy, beta times F"
+        },
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Mean water count divided by the normalization value specified in README.txt"
+        },
+        "normalized_beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "beta F divided by the replica normalization water count"
+        }
+      }
+    },
+    {
+      "file": "CB434/replicate_03/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias strength, beta times phi"
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean number of water molecules from the analysis output, before display smoothing"
+        },
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Mean water count divided by the normalization value specified in README.txt"
+        },
+        "normalized_water_count_smoothed": {
+          "unit": "dimensionless",
+          "description": "Normalized water count after the documented display smoothing"
+        }
+      }
+    },
+    {
+      "file": "CB441/free_energy_summary.csv",
+      "rows": 70,
+      "data_level": "plotted_summary",
+      "columns": {
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Mean water count divided by the normalization value specified in README.txt"
+        },
+        "normalized_beta_free_energy_mean": {
+          "unit": "dimensionless",
+          "description": "Mean of normalized free-energy replica curves on the common grid"
+        },
+        "normalized_beta_free_energy_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation of normalized free-energy replica curves (ddof=1)"
+        },
+        "n_replicates": {
+          "unit": "integer",
+          "description": "Number of replicas contributing to the summary"
+        }
+      }
+    },
+    {
+      "file": "CB441/occupancy_summary.csv",
+      "rows": 70,
+      "data_level": "plotted_summary",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias strength, beta times phi"
+        },
+        "normalized_water_count_mean": {
+          "unit": "dimensionless",
+          "description": "Mean of the normalized, smoothed replica curves on the common grid"
+        },
+        "normalized_water_count_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation of the normalized, smoothed replica curves (ddof=1)"
+        },
+        "n_replicates": {
+          "unit": "integer",
+          "description": "Number of replicas contributing to the summary"
+        }
+      }
+    },
+    {
+      "file": "CB441/replicate_01/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean number of water molecules from the analysis output, before display smoothing"
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless water-removal free energy, beta times F"
+        },
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Mean water count divided by the normalization value specified in README.txt"
+        },
+        "normalized_beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "beta F divided by the replica normalization water count"
+        }
+      }
+    },
+    {
+      "file": "CB441/replicate_01/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias strength, beta times phi"
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean number of water molecules from the analysis output, before display smoothing"
+        },
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Mean water count divided by the normalization value specified in README.txt"
+        },
+        "normalized_water_count_smoothed": {
+          "unit": "dimensionless",
+          "description": "Normalized water count after the documented display smoothing"
+        }
+      }
+    },
+    {
+      "file": "CB441/replicate_02/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean number of water molecules from the analysis output, before display smoothing"
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless water-removal free energy, beta times F"
+        },
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Mean water count divided by the normalization value specified in README.txt"
+        },
+        "normalized_beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "beta F divided by the replica normalization water count"
+        }
+      }
+    },
+    {
+      "file": "CB441/replicate_02/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias strength, beta times phi"
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean number of water molecules from the analysis output, before display smoothing"
+        },
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Mean water count divided by the normalization value specified in README.txt"
+        },
+        "normalized_water_count_smoothed": {
+          "unit": "dimensionless",
+          "description": "Normalized water count after the documented display smoothing"
+        }
+      }
+    },
+    {
+      "file": "CB441/replicate_03/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean number of water molecules from the analysis output, before display smoothing"
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless water-removal free energy, beta times F"
+        },
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Mean water count divided by the normalization value specified in README.txt"
+        },
+        "normalized_beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "beta F divided by the replica normalization water count"
+        }
+      }
+    },
+    {
+      "file": "CB441/replicate_03/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias strength, beta times phi"
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean number of water molecules from the analysis output, before display smoothing"
+        },
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Mean water count divided by the normalization value specified in README.txt"
+        },
+        "normalized_water_count_smoothed": {
+          "unit": "dimensionless",
+          "description": "Normalized water count after the documented display smoothing"
+        }
+      }
+    },
+    {
+      "file": "CB442/free_energy_summary.csv",
+      "rows": 70,
+      "data_level": "plotted_summary",
+      "columns": {
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Mean water count divided by the normalization value specified in README.txt"
+        },
+        "normalized_beta_free_energy_mean": {
+          "unit": "dimensionless",
+          "description": "Mean of normalized free-energy replica curves on the common grid"
+        },
+        "normalized_beta_free_energy_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation of normalized free-energy replica curves (ddof=1)"
+        },
+        "n_replicates": {
+          "unit": "integer",
+          "description": "Number of replicas contributing to the summary"
+        }
+      }
+    },
+    {
+      "file": "CB442/occupancy_summary.csv",
+      "rows": 70,
+      "data_level": "plotted_summary",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias strength, beta times phi"
+        },
+        "normalized_water_count_mean": {
+          "unit": "dimensionless",
+          "description": "Mean of the normalized, smoothed replica curves on the common grid"
+        },
+        "normalized_water_count_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation of the normalized, smoothed replica curves (ddof=1)"
+        },
+        "n_replicates": {
+          "unit": "integer",
+          "description": "Number of replicas contributing to the summary"
+        }
+      }
+    },
+    {
+      "file": "CB442/replicate_01/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean number of water molecules from the analysis output, before display smoothing"
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless water-removal free energy, beta times F"
+        },
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Mean water count divided by the normalization value specified in README.txt"
+        },
+        "normalized_beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "beta F divided by the replica normalization water count"
+        }
+      }
+    },
+    {
+      "file": "CB442/replicate_01/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias strength, beta times phi"
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean number of water molecules from the analysis output, before display smoothing"
+        },
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Mean water count divided by the normalization value specified in README.txt"
+        },
+        "normalized_water_count_smoothed": {
+          "unit": "dimensionless",
+          "description": "Normalized water count after the documented display smoothing"
+        }
+      }
+    },
+    {
+      "file": "CB442/replicate_02/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean number of water molecules from the analysis output, before display smoothing"
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless water-removal free energy, beta times F"
+        },
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Mean water count divided by the normalization value specified in README.txt"
+        },
+        "normalized_beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "beta F divided by the replica normalization water count"
+        }
+      }
+    },
+    {
+      "file": "CB442/replicate_02/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias strength, beta times phi"
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean number of water molecules from the analysis output, before display smoothing"
+        },
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Mean water count divided by the normalization value specified in README.txt"
+        },
+        "normalized_water_count_smoothed": {
+          "unit": "dimensionless",
+          "description": "Normalized water count after the documented display smoothing"
+        }
+      }
+    },
+    {
+      "file": "CB442/replicate_03/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean number of water molecules from the analysis output, before display smoothing"
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless water-removal free energy, beta times F"
+        },
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Mean water count divided by the normalization value specified in README.txt"
+        },
+        "normalized_beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "beta F divided by the replica normalization water count"
+        }
+      }
+    },
+    {
+      "file": "CB442/replicate_03/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias strength, beta times phi"
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean number of water molecules from the analysis output, before display smoothing"
+        },
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Mean water count divided by the normalization value specified in README.txt"
+        },
+        "normalized_water_count_smoothed": {
+          "unit": "dimensionless",
+          "description": "Normalized water count after the documented display smoothing"
+        }
+      }
+    },
+    {
+      "file": "Nuvia_cPrime/free_energy_summary.csv",
+      "rows": 69,
+      "data_level": "plotted_summary",
+      "columns": {
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Mean water count divided by the normalization value specified in README.txt"
+        },
+        "normalized_beta_free_energy_mean": {
+          "unit": "dimensionless",
+          "description": "Mean of normalized free-energy replica curves on the common grid"
+        },
+        "normalized_beta_free_energy_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation of normalized free-energy replica curves (ddof=1)"
+        },
+        "n_replicates": {
+          "unit": "integer",
+          "description": "Number of replicas contributing to the summary"
+        }
+      }
+    },
+    {
+      "file": "Nuvia_cPrime/occupancy_summary.csv",
+      "rows": 70,
+      "data_level": "plotted_summary",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias strength, beta times phi"
+        },
+        "normalized_water_count_mean": {
+          "unit": "dimensionless",
+          "description": "Mean of the normalized, smoothed replica curves on the common grid"
+        },
+        "normalized_water_count_sd": {
+          "unit": "dimensionless",
+          "description": "Sample standard deviation of the normalized, smoothed replica curves (ddof=1)"
+        },
+        "n_replicates": {
+          "unit": "integer",
+          "description": "Number of replicas contributing to the summary"
+        }
+      }
+    },
+    {
+      "file": "Nuvia_cPrime/replicate_01/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean number of water molecules from the analysis output, before display smoothing"
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless water-removal free energy, beta times F"
+        },
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Mean water count divided by the normalization value specified in README.txt"
+        },
+        "normalized_beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "beta F divided by the replica normalization water count"
+        }
+      }
+    },
+    {
+      "file": "Nuvia_cPrime/replicate_01/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias strength, beta times phi"
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean number of water molecules from the analysis output, before display smoothing"
+        },
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Mean water count divided by the normalization value specified in README.txt"
+        },
+        "normalized_water_count_smoothed": {
+          "unit": "dimensionless",
+          "description": "Normalized water count after the documented display smoothing"
+        }
+      }
+    },
+    {
+      "file": "Nuvia_cPrime/replicate_02/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean number of water molecules from the analysis output, before display smoothing"
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless water-removal free energy, beta times F"
+        },
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Mean water count divided by the normalization value specified in README.txt"
+        },
+        "normalized_beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "beta F divided by the replica normalization water count"
+        }
+      }
+    },
+    {
+      "file": "Nuvia_cPrime/replicate_02/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias strength, beta times phi"
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean number of water molecules from the analysis output, before display smoothing"
+        },
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Mean water count divided by the normalization value specified in README.txt"
+        },
+        "normalized_water_count_smoothed": {
+          "unit": "dimensionless",
+          "description": "Normalized water count after the documented display smoothing"
+        }
+      }
+    },
+    {
+      "file": "Nuvia_cPrime/replicate_03/free_energy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean number of water molecules from the analysis output, before display smoothing"
+        },
+        "beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "Dimensionless water-removal free energy, beta times F"
+        },
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Mean water count divided by the normalization value specified in README.txt"
+        },
+        "normalized_beta_free_energy": {
+          "unit": "dimensionless",
+          "description": "beta F divided by the replica normalization water count"
+        }
+      }
+    },
+    {
+      "file": "Nuvia_cPrime/replicate_03/occupancy.csv",
+      "rows": 70,
+      "data_level": "analysis_and_plotted",
+      "columns": {
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias strength, beta times phi"
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean number of water molecules from the analysis output, before display smoothing"
+        },
+        "normalized_water_count": {
+          "unit": "dimensionless",
+          "description": "Mean water count divided by the normalization value specified in README.txt"
+        },
+        "normalized_water_count_smoothed": {
+          "unit": "dimensionless",
+          "description": "Normalized water count after the documented display smoothing"
+        }
+      }
+    }
+  ]
+}

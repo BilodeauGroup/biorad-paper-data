@@ -1,0 +1,239 @@
+{
+  "figure": "05",
+  "title": "Chemical-group hydration during protein adsorption and INDUS sampling",
+  "ligand_order": [
+    "Nuvia cPrime",
+    "CB434",
+    "CB442"
+  ],
+  "files": [
+    {
+      "file": "indus/CB434/hydration_analysis.csv",
+      "rows": 350,
+      "data_level": "analysis",
+      "columns": {
+        "chemical_group": {
+          "unit": "text",
+          "description": "Chemical group; phenyl_1 and phenyl_2 correspond to 1st and 2nd phenyl in the figure"
+        },
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias strength, beta times phi"
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean number of water molecules from the analysis output, before display smoothing"
+        }
+      }
+    },
+    {
+      "file": "indus/CB434/hydration_plotted.csv",
+      "rows": 350,
+      "data_level": "plotted",
+      "columns": {
+        "chemical_group": {
+          "unit": "text",
+          "description": "Chemical group; phenyl_1 and phenyl_2 correspond to 1st and 2nd phenyl in the figure"
+        },
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias strength, beta times phi"
+        },
+        "normalized_water_count_plotted": {
+          "unit": "dimensionless",
+          "description": "Normalized hydration curve plotted in Figure 5 after the documented smoothing"
+        }
+      }
+    },
+    {
+      "file": "indus/CB442/hydration_analysis.csv",
+      "rows": 350,
+      "data_level": "analysis",
+      "columns": {
+        "chemical_group": {
+          "unit": "text",
+          "description": "Chemical group; phenyl_1 and phenyl_2 correspond to 1st and 2nd phenyl in the figure"
+        },
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias strength, beta times phi"
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean number of water molecules from the analysis output, before display smoothing"
+        }
+      }
+    },
+    {
+      "file": "indus/CB442/hydration_plotted.csv",
+      "rows": 350,
+      "data_level": "plotted",
+      "columns": {
+        "chemical_group": {
+          "unit": "text",
+          "description": "Chemical group; phenyl_1 and phenyl_2 correspond to 1st and 2nd phenyl in the figure"
+        },
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias strength, beta times phi"
+        },
+        "normalized_water_count_plotted": {
+          "unit": "dimensionless",
+          "description": "Normalized hydration curve plotted in Figure 5 after the documented smoothing"
+        }
+      }
+    },
+    {
+      "file": "indus/Nuvia_cPrime/hydration_analysis.csv",
+      "rows": 280,
+      "data_level": "analysis",
+      "columns": {
+        "chemical_group": {
+          "unit": "text",
+          "description": "Chemical group; phenyl_1 and phenyl_2 correspond to 1st and 2nd phenyl in the figure"
+        },
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias strength, beta times phi"
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean number of water molecules from the analysis output, before display smoothing"
+        }
+      }
+    },
+    {
+      "file": "indus/Nuvia_cPrime/hydration_plotted.csv",
+      "rows": 280,
+      "data_level": "plotted",
+      "columns": {
+        "chemical_group": {
+          "unit": "text",
+          "description": "Chemical group; phenyl_1 and phenyl_2 correspond to 1st and 2nd phenyl in the figure"
+        },
+        "beta_phi": {
+          "unit": "dimensionless",
+          "description": "Dimensionless INDUS bias strength, beta times phi"
+        },
+        "normalized_water_count_plotted": {
+          "unit": "dimensionless",
+          "description": "Normalized hydration curve plotted in Figure 5 after the documented smoothing"
+        }
+      }
+    },
+    {
+      "file": "umbrella_sampling/CB434/hydration_analysis.csv",
+      "rows": 300,
+      "data_level": "analysis",
+      "columns": {
+        "chemical_group": {
+          "unit": "text",
+          "description": "Chemical group; phenyl_1 and phenyl_2 correspond to 1st and 2nd phenyl in the figure"
+        },
+        "com_distance_nm": {
+          "unit": "nm",
+          "description": "Protein–surface center-of-mass separation"
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean number of water molecules from the analysis output, before display smoothing"
+        }
+      }
+    },
+    {
+      "file": "umbrella_sampling/CB434/hydration_plotted.csv",
+      "rows": 50,
+      "data_level": "plotted",
+      "columns": {
+        "chemical_group": {
+          "unit": "text",
+          "description": "Chemical group; phenyl_1 and phenyl_2 correspond to 1st and 2nd phenyl in the figure"
+        },
+        "com_distance_nm": {
+          "unit": "nm",
+          "description": "Protein–surface center-of-mass separation"
+        },
+        "normalized_water_count_plotted": {
+          "unit": "dimensionless",
+          "description": "Normalized hydration curve plotted in Figure 5 after the documented smoothing"
+        }
+      }
+    },
+    {
+      "file": "umbrella_sampling/CB442/hydration_analysis.csv",
+      "rows": 320,
+      "data_level": "analysis",
+      "columns": {
+        "chemical_group": {
+          "unit": "text",
+          "description": "Chemical group; phenyl_1 and phenyl_2 correspond to 1st and 2nd phenyl in the figure"
+        },
+        "com_distance_nm": {
+          "unit": "nm",
+          "description": "Protein–surface center-of-mass separation"
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean number of water molecules from the analysis output, before display smoothing"
+        }
+      }
+    },
+    {
+      "file": "umbrella_sampling/CB442/hydration_plotted.csv",
+      "rows": 50,
+      "data_level": "plotted",
+      "columns": {
+        "chemical_group": {
+          "unit": "text",
+          "description": "Chemical group; phenyl_1 and phenyl_2 correspond to 1st and 2nd phenyl in the figure"
+        },
+        "com_distance_nm": {
+          "unit": "nm",
+          "description": "Protein–surface center-of-mass separation"
+        },
+        "normalized_water_count_plotted": {
+          "unit": "dimensionless",
+          "description": "Normalized hydration curve plotted in Figure 5 after the documented smoothing"
+        }
+      }
+    },
+    {
+      "file": "umbrella_sampling/Nuvia_cPrime/hydration_analysis.csv",
+      "rows": 264,
+      "data_level": "analysis",
+      "columns": {
+        "chemical_group": {
+          "unit": "text",
+          "description": "Chemical group; phenyl_1 and phenyl_2 correspond to 1st and 2nd phenyl in the figure"
+        },
+        "com_distance_nm": {
+          "unit": "nm",
+          "description": "Protein–surface center-of-mass separation"
+        },
+        "mean_water_count": {
+          "unit": "molecules",
+          "description": "Mean number of water molecules from the analysis output, before display smoothing"
+        }
+      }
+    },
+    {
+      "file": "umbrella_sampling/Nuvia_cPrime/hydration_plotted.csv",
+      "rows": 40,
+      "data_level": "plotted",
+      "columns": {
+        "chemical_group": {
+          "unit": "text",
+          "description": "Chemical group; phenyl_1 and phenyl_2 correspond to 1st and 2nd phenyl in the figure"
+        },
+        "com_distance_nm": {
+          "unit": "nm",
+          "description": "Protein–surface center-of-mass separation"
+        },
+        "normalized_water_count_plotted": {
+          "unit": "dimensionless",
+          "description": "Normalized hydration curve plotted in Figure 5 after the documented smoothing"
+        }
+      }
+    }
+  ]
+}

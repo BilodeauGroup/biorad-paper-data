@@ -1,0 +1,175 @@
+{
+  "figure": "13",
+  "title": "Protein elution salt concentrations from partition-coefficient experiments",
+  "ligand_order": [
+    "CB431",
+    "Nuvia cPrime",
+    "CB433",
+    "CB441",
+    "CB434",
+    "CB442"
+  ],
+  "files": [
+    {
+      "file": "alpha_chymotrypsin.csv",
+      "rows": 6,
+      "data_level": "plotted",
+      "columns": {
+        "ligand": {
+          "unit": "text",
+          "description": "Ligand name."
+        },
+        "ph": {
+          "unit": "dimensionless",
+          "description": "Experimental pH."
+        },
+        "elution_nacl_millimolar": {
+          "unit": "mM",
+          "description": "NaCl concentration in mM; blank for explicitly reported nonbinding."
+        },
+        "binding_status": {
+          "unit": "text",
+          "description": "did_not_bind: nonbinding, with no numerical elution concentration; reported_concentration: numerical elution concentration."
+        }
+      }
+    },
+    {
+      "file": "alpha_chymotrypsinogen.csv",
+      "rows": 6,
+      "data_level": "plotted",
+      "columns": {
+        "ligand": {
+          "unit": "text",
+          "description": "Ligand name."
+        },
+        "ph": {
+          "unit": "dimensionless",
+          "description": "Experimental pH."
+        },
+        "elution_nacl_millimolar": {
+          "unit": "mM",
+          "description": "NaCl concentration in mM; blank for explicitly reported nonbinding."
+        },
+        "binding_status": {
+          "unit": "text",
+          "description": "did_not_bind: nonbinding, with no numerical elution concentration; reported_concentration: numerical elution concentration."
+        }
+      }
+    },
+    {
+      "file": "cytochrome_c.csv",
+      "rows": 6,
+      "data_level": "plotted",
+      "columns": {
+        "ligand": {
+          "unit": "text",
+          "description": "Ligand name."
+        },
+        "ph": {
+          "unit": "dimensionless",
+          "description": "Experimental pH."
+        },
+        "elution_nacl_millimolar": {
+          "unit": "mM",
+          "description": "NaCl concentration in mM; blank for explicitly reported nonbinding."
+        },
+        "binding_status": {
+          "unit": "text",
+          "description": "did_not_bind: nonbinding, with no numerical elution concentration; reported_concentration: numerical elution concentration."
+        }
+      }
+    },
+    {
+      "file": "hemoglobin.csv",
+      "rows": 6,
+      "data_level": "plotted",
+      "columns": {
+        "ligand": {
+          "unit": "text",
+          "description": "Ligand name."
+        },
+        "ph": {
+          "unit": "dimensionless",
+          "description": "Experimental pH."
+        },
+        "elution_nacl_millimolar": {
+          "unit": "mM",
+          "description": "NaCl concentration in mM; blank for explicitly reported nonbinding."
+        },
+        "binding_status": {
+          "unit": "text",
+          "description": "did_not_bind: nonbinding, with no numerical elution concentration; reported_concentration: numerical elution concentration."
+        }
+      }
+    },
+    {
+      "file": "lactoferrin.csv",
+      "rows": 6,
+      "data_level": "plotted",
+      "columns": {
+        "ligand": {
+          "unit": "text",
+          "description": "Ligand name."
+        },
+        "ph": {
+          "unit": "dimensionless",
+          "description": "Experimental pH."
+        },
+        "elution_nacl_millimolar": {
+          "unit": "mM",
+          "description": "NaCl concentration in mM; blank for explicitly reported nonbinding."
+        },
+        "binding_status": {
+          "unit": "text",
+          "description": "did_not_bind: nonbinding, with no numerical elution concentration; reported_concentration: numerical elution concentration."
+        }
+      }
+    },
+    {
+      "file": "lysozyme.csv",
+      "rows": 6,
+      "data_level": "plotted",
+      "columns": {
+        "ligand": {
+          "unit": "text",
+          "description": "Ligand name."
+        },
+        "ph": {
+          "unit": "dimensionless",
+          "description": "Experimental pH."
+        },
+        "elution_nacl_millimolar": {
+          "unit": "mM",
+          "description": "NaCl concentration in mM; blank for explicitly reported nonbinding."
+        },
+        "binding_status": {
+          "unit": "text",
+          "description": "did_not_bind: nonbinding, with no numerical elution concentration; reported_concentration: numerical elution concentration."
+        }
+      }
+    },
+    {
+      "file": "myoglobin.csv",
+      "rows": 6,
+      "data_level": "plotted",
+      "columns": {
+        "ligand": {
+          "unit": "text",
+          "description": "Ligand name."
+        },
+        "ph": {
+          "unit": "dimensionless",
+          "description": "Experimental pH."
+        },
+        "elution_nacl_millimolar": {
+          "unit": "mM",
+          "description": "NaCl concentration in mM; blank for explicitly reported nonbinding."
+        },
+        "binding_status": {
+          "unit": "text",
+          "description": "did_not_bind: nonbinding, with no numerical elution concentration; reported_concentration: numerical elution concentration."
+        }
+      }
+    }
+  ]
+}
